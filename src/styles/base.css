@@ -3,9 +3,20 @@
     color-scheme: light;
   }
 
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply min-h-screen bg-stone-50 text-stone-900 antialiased;
+    @apply min-h-screen bg-canvas text-ink antialiased;
     font-family: "Segoe UI", system-ui, sans-serif;
+    background-image:
+      radial-gradient(circle at top left, rgb(6 146 74 / 0.06) 0%, transparent 28%),
+      linear-gradient(180deg, var(--palette-canvas-soft) 0%, var(--palette-canvas) 20rem);
   }
 
   #root {
@@ -14,5 +25,28 @@
 
   a {
     @apply text-inherit no-underline;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  :where(a, button) {
+    transition:
+      color 160ms ease,
+      background-color 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease,
+      transform 160ms ease;
+  }
+
+  :where(a, button):focus-visible {
+    outline: 2px solid var(--focus-ring-color);
+    outline-offset: 3px;
+    box-shadow: var(--focus-ring-shadow);
+  }
+
+  ::selection {
+    background: var(--selection-fill);
   }
 }

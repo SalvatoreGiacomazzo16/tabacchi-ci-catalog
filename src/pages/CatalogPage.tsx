@@ -2,8 +2,14 @@ import { useCatalogLayoutContext } from '../app/useCatalogLayoutContext';
 import { ProductGridSection } from '../components/sections/ProductGridSection';
 import { products } from '../data/products';
 
-export function HomePage() {
+export function CatalogPage() {
   const { selectedLanguage } = useCatalogLayoutContext();
 
-  return <ProductGridSection title="Catalog" products={products} selectedLanguage={selectedLanguage} />;
+  return (
+    <ProductGridSection
+      title="All products"
+      products={products}
+      selectedLanguage={selectedLanguage}
+    />
+  );
 }

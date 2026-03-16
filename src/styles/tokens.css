@@ -1,0 +1,44 @@
+:root {
+  --palette-brand-300: #d9f0e2;
+  --palette-brand-500: #06924A;
+  --palette-brand-700: #046c37;
+
+  --palette-brand-faint: #f1faf5;
+  --palette-brand-muted: #bfd8c8;
+
+  --palette-canvas: #FFFFFF;
+  --palette-canvas-soft: #f8faf9;
+  --palette-surface: #FFFFFF;
+  --palette-surface-soft: #f5f7f6;
+  --palette-border: #d9ddda;
+  --palette-border-strong: #babec0;
+  --palette-ink: #1d2420;
+  --palette-muted: #939498;
+  --palette-contrast: #FFFFFF;
+
+  --focus-ring-color: #06924A;
+  --focus-ring-shadow: 0 0 0 4px rgb(6 146 74 / 0.18);
+  --selection-fill: rgb(6 146 74 / 0.16);
+
+  --shadow-card: 0 18px 42px -34px rgb(147 148 152 / 0.22);
+  --shadow-floating: 0 24px 56px -34px rgb(6 146 74 / 0.18);
+  --shadow-header: 0 10px 28px -26px rgb(147 148 152 / 0.18);
+}
+
+@theme inline {
+  --color-brand-300: var(--palette-brand-300);
+  --color-brand-500: var(--palette-brand-500);
+  --color-brand-700: var(--palette-brand-700);
+  --color-brand-faint: var(--palette-brand-faint);
+  --color-brand-muted: var(--palette-brand-muted);
+
+  --color-canvas: var(--palette-canvas);
+  --color-canvas-soft: var(--palette-canvas-soft);
+  --color-surface: var(--palette-surface);
+  --color-surface-soft: var(--palette-surface-soft);
+  --color-line: var(--palette-border);
+  --color-line-strong: var(--palette-border-strong);
+  --color-ink: var(--palette-ink);
+  --color-muted: var(--palette-muted);
+  --color-contrast: var(--palette-contrast);
+}

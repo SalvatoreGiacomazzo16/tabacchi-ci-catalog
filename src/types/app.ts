@@ -1,9 +1,14 @@
 export type NavItem = {
   label: string;
-  href: string;
+  to: string;
+  end?: boolean;
 };
 
-export type SiteConfig = {
-  name: string;
-  description: string;
+export type LanguageCode = 'it' | 'en' | 'es' | 'fr' | 'de';
+
+export type LanguageOption = {
+  code: LanguageCode;
+  label: string;
+  flag: string;
+  locale: string;
 };

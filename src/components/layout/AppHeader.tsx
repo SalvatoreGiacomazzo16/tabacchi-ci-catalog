@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
-import { languageOptions, navigation, siteTitle } from '../../app/config';
+import { Link, useLocation } from 'react-router-dom';
+import { languageOptions, siteTitle } from '../../app/config';
 import { cn } from '../../lib/cn';
 import type { LanguageCode } from '../../types/app';
 
@@ -86,53 +86,28 @@ export function AppHeader({ selectedLanguage, onLanguageChange }: AppHeaderProps
     setDesktopLanguageOpen(false);
   }
 
-  function getLocalizedPath(path: string) {
-    if (path === '/') {
-      return `/${selectedLanguage}`;
-    }
-
-    return `/${selectedLanguage}${path}`;
-  }
-
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-surface/90 shadow-[var(--shadow-header)] backdrop-blur">
-      <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4">
           <Link
-            className="flex items-center gap-4 text-sm font-semibold uppercase tracking-[0.3em] text-brand-700 transition hover:text-brand-500"
-            to={`/${selectedLanguage}`}
+            className="flex items-center gap-3 text-brand-700 transition hover:text-brand-500"
+            to={`/${selectedLanguage}/catalog`}
           >
             <img
               alt="Tabacchi Cipriano logo"
-              className="h-24 w-auto shrink-0 object-contain"
+              className="h-16 w-auto shrink-0 object-contain sm:h-18"
               src="/tabacchi.cipriano.png"
             />
-            <span>{siteTitle}</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.24em] sm:text-sm">
+              {siteTitle}
+            </span>
           </Link>
 
-          <div className="hidden items-center gap-3 md:flex">
-            <nav className="flex items-center gap-2 rounded-full border border-line bg-canvas-soft px-2 py-2">
-              {navigation.map((item) => (
-                <NavLink
-                  key={item.to}
-                  className={({ isActive }) =>
-                    cn(
-                      'rounded-full border border-transparent px-4 py-2 text-sm font-medium text-muted transition hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700',
-                      isActive &&
-                      'border-brand-700 bg-brand-700 text-contrast shadow-[var(--shadow-card)] hover:bg-brand-700 hover:text-contrast',
-                    )
-                  }
-                  end={item.end}
-                  to={getLocalizedPath(item.to)}
-                >
-                  {item.label}
-                </NavLink>
-              ))}
-            </nav>
-
+          <div className="hidden md:block">
             <div className="relative" ref={desktopMenuRef}>
               <button
-                className="flex items-center gap-3 rounded-full border border-line bg-canvas-soft px-4 py-3 text-sm font-medium text-ink transition hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700"
+                className="flex items-center gap-3 rounded-full border border-line bg-canvas-soft px-4 py-2.5 text-sm font-medium text-ink transition hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700"
                 onClick={() => setDesktopLanguageOpen((open) => !open)}
                 type="button"
               >
@@ -155,7 +130,7 @@ export function AppHeader({ selectedLanguage, onLanguageChange }: AppHeaderProps
               </button>
 
               {desktopLanguageOpen ? (
-                <div className="absolute right-0 top-[calc(100%+0.75rem)] w-64 rounded-3xl border border-line bg-surface p-3 shadow-[var(--shadow-floating)]">
+                <div className="absolute right-0 top-[calc(100%+0.6rem)] w-64 rounded-3xl border border-line bg-surface p-3 shadow-[var(--shadow-floating)]">
                   <LanguageOptionsList
                     buttonClassName="w-full"
                     className="space-y-2"
@@ -168,7 +143,7 @@ export function AppHeader({ selectedLanguage, onLanguageChange }: AppHeaderProps
           </div>
 
           <button
-            className="flex items-center gap-3 rounded-full border border-line bg-canvas-soft px-4 py-3 text-sm font-medium text-ink transition hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700 md:hidden"
+            className="flex items-center gap-3 rounded-full border border-line bg-canvas-soft px-4 py-2.5 text-sm font-medium text-ink transition hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700 md:hidden"
             onClick={() => setMobileLanguageOpen((open) => !open)}
             type="button"
           >
@@ -191,29 +166,8 @@ export function AppHeader({ selectedLanguage, onLanguageChange }: AppHeaderProps
           </button>
         </div>
 
-        <div className="mt-4 md:hidden">
-          <nav className="grid grid-cols-2 gap-2">
-            {navigation.map((item) => (
-              <NavLink
-                key={item.to}
-                className={({ isActive }) =>
-                  cn(
-                    'rounded-2xl border border-line bg-canvas-soft px-4 py-3 text-center text-sm font-medium text-muted transition hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700',
-                    isActive &&
-                    'border-brand-700 bg-brand-700 text-contrast shadow-[var(--shadow-card)] hover:bg-brand-700 hover:text-contrast',
-                  )
-                }
-                end={item.end}
-                to={getLocalizedPath(item.to)}
-              >
-                {item.label}
-              </NavLink>
-            ))}
-          </nav>
-        </div>
-
         {mobileLanguageOpen ? (
-          <div className="mt-3 rounded-3xl border border-line bg-surface p-3 shadow-[var(--shadow-card)] md:hidden">
+          <div className="mt-2 rounded-3xl border border-line bg-surface p-3 shadow-[var(--shadow-card)] md:hidden">
             <LanguageOptionsList
               buttonClassName="w-full"
               className="space-y-2"

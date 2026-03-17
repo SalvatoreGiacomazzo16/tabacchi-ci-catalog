@@ -41,7 +41,7 @@ export function CatalogLayout() {
       </main>
 
 
-      <AppFooter selectedLanguage={selectedLanguage} />
+      <AppFooter />
     </div>
   );
 }

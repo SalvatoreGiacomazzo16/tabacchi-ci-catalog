@@ -1,10 +1,4 @@
-import type { LanguageCode } from '../../types/app';
-
-type AppFooterProps = {
-    selectedLanguage: LanguageCode;
-};
-
-export function AppFooter({ selectedLanguage }: AppFooterProps) {
+export function AppFooter() {
     return (
         <footer className="border-t border-line bg-surface">
             <div className="mx-auto flex max-w-7xl items-start justify-between gap-4 px-4 py-6 text-sm text-muted sm:px-6 lg:px-8">

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { defaultLanguage } from '../app/config';
 
 const catalogUrl = 'https://tabacchi-ci-catalog.vercel.app/it';
-const instagramUrl = 'https://instagram.com/tabacchicatalog';
+const instagramUrl = 'https://www.instagram.com/tabacchici_pompei?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
 
 export function LinksPage() {
   return (

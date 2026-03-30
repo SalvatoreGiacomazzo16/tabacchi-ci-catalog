@@ -11,7 +11,7 @@ export function AppFooter() {
                 <div className="flex shrink-0 items-start">
                     <a
                         className="font-medium text-brand-700 transition hover:text-brand-500"
-                        href="https://instagram.com/tabacchicatalog"
+                        href="https://www.instagram.com/tabacchici_pompei?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                         rel="noreferrer"
                         target="_blank"
                     >

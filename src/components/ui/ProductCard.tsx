@@ -13,7 +13,7 @@ export function ProductCard({ product, selectedLanguage }: ProductCardProps) {
   const content = product.translations[selectedLanguage];
 
   return (
-    <article className="flex h-full flex-col gap-4 rounded-[1.75rem] border border-line bg-surface p-4 shadow-[var(--shadow-card)] transition hover:border-brand-muted hover:shadow-[var(--shadow-floating)]">
+    <article className="flex h-full flex-col gap-4 rounded-[1.75rem] border border-line bg-[#C6C6C6]/75 p-4 shadow-[var(--shadow-card)] transition hover:border-brand-muted hover:shadow-[var(--shadow-floating)]">
       <ProductMedia
         category={content.category}
         className="aspect-[4/3]"
@@ -28,8 +28,8 @@ export function ProductCard({ product, selectedLanguage }: ProductCardProps) {
             {content.category}
           </p>
           <h2 className="text-xl font-semibold text-ink">{content.title}</h2>
-          <p className="text-sm leading-6 text-muted">{content.description}</p>
-          <p className="text-sm font-medium text-muted">Size: {product.size}</p>
+          <p className="text-sm leading-6 text-black">{content.description}</p>
+          <p className="text-sm font-medium text-black">Size: {product.size}</p>
         </div>
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-2">

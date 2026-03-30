@@ -94,12 +94,15 @@ export function AppHeader({ selectedLanguage, onLanguageChange }: AppHeaderProps
             className="flex items-center gap-3 text-brand-700 transition hover:text-brand-500"
             to={`/${selectedLanguage}/catalog`}
           >
-            <img
-              alt="Tabacchi Cipriano logo"
-              className="h-16 w-auto shrink-0 object-contain sm:h-18"
-              src="/tabacchi.cipriano.png"
-            />
-            <span className="text-xs font-semibold uppercase tracking-[0.24em] sm:text-sm">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden sm:h-16 sm:w-16">
+              <img
+                alt="Tabacchi Cipriano logo"
+                className="h-full w-full scale-[1.9] object-contain"
+                src="/tabacchi.cipriano.png"
+              />
+            </div>
+
+            <span className="text-xs font-semibold uppercase tracking-[0.22em] sm:text-sm">
               {siteTitle}
             </span>
           </Link>

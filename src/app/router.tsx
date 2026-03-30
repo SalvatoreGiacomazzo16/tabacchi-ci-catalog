@@ -3,6 +3,7 @@ import { defaultLanguage } from './config';
 import { CatalogLayout } from '../components/layout/CatalogLayout';
 import { CatalogPage } from '../pages/CatalogPage';
 import { HomePage } from '../pages/HomePage';
+import { LinksPage } from '../pages/LinksPage';
 import { ProductDetailPage } from '../pages/ProductDetailPage';
 
 export function AppRouter() {
@@ -10,6 +11,7 @@ export function AppRouter() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate replace to={`/${defaultLanguage}`} />} />
+        <Route path="/links" element={<LinksPage />} />
 
         <Route path="/:lang" element={<CatalogLayout />}>
           <Route index element={<HomePage />} />

@@ -8,7 +8,7 @@ export const products: Product[] = [
     id: 'cotto-001',
     price: 24.9,
     size: '30 x 30 cm',
-    image: placeholderImage,
+    image: '/products/anfora-ceramica.png',
     currency: 'EUR',
     translations: {
       it: {
@@ -47,7 +47,7 @@ export const products: Product[] = [
     id: 'cotto-002',
     price: 18.5,
     size: '28 x 12 cm',
-    image: placeholderImage,
+    image: '/products/gatto-ceramica.png',
     currency: 'EUR',
     translations: {
       it: {
@@ -86,7 +86,7 @@ export const products: Product[] = [
     id: 'cotto-003',
     price: 39.9,
     size: '22 x 45 cm',
-    image: placeholderImage,
+    image: '/products/gufo-ceramica.png',
     currency: 'EUR',
     translations: {
       it: {

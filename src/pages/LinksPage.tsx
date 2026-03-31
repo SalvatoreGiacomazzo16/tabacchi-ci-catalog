@@ -1,8 +1,6 @@
-import { Link } from 'react-router-dom';
-import { defaultLanguage } from '../app/config';
-
 const catalogUrl = 'https://tabacchi-ci-catalog.vercel.app/it';
 const instagramUrl = 'https://www.instagram.com/tabacchici_pompei?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
+const facebookUrl = 'https://www.facebook.com/share/18UUykjepa/';
 
 export function LinksPage() {
   return (
@@ -20,7 +18,7 @@ export function LinksPage() {
           <div className="mt-6 space-y-3">
             <h1 className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl">Tabacchi Ci</h1>
             <p className="text-sm leading-6 text-muted sm:text-base">
-              Scopri il catalogo e seguici su Instagram
+              Scopri il catalogo e seguici su Instagram e Facebook
             </p>
           </div>
 
@@ -42,15 +40,15 @@ export function LinksPage() {
             >
               Instagram
             </a>
-          </div>
 
-          <div className="mt-6">
-            <Link
-              className="text-sm font-medium text-brand-700 transition hover:text-brand-500"
-              to={`/${defaultLanguage}/catalog`}
+            <a
+              className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-canvas-soft px-5 py-3 text-base font-semibold text-ink shadow-[var(--shadow-card)] hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700 hover:-translate-y-0.5"
+              href={facebookUrl}
+              rel="noreferrer"
+              target="_blank"
             >
-              Torna al catalogo
-            </Link>
+              Facebook
+            </a>
           </div>
         </section>
       </main>

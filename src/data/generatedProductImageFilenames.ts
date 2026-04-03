@@ -37,7 +37,7 @@ export const productImageFilenames = [
   "quadretto-sacro.png",
   "rosario-con-effige-e-croce.png",
   "rosario-con-effige.png",
-  "satuetta-santa-rita.png",
+  "statuetta-santa-rita.png",
   "statuetta-arcangelo-gabriele-dipinta.png",
   "statuetta-arcangelo-gabriele.png",
   "statuetta-biga-con-cavallo.png",

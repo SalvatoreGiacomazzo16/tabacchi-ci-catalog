@@ -37,7 +37,6 @@ export const productImageFilenames = [
   "quadretto-sacro.png",
   "rosario-con-effige-e-croce.png",
   "rosario-con-effige.png",
-  "statuetta-santa-rita.png",
   "statuetta-arcangelo-gabriele-dipinta.png",
   "statuetta-arcangelo-gabriele.png",
   "statuetta-biga-con-cavallo.png",
@@ -46,8 +45,10 @@ export const productImageFilenames = [
   "statuetta-madonna-con-angeli.png",
   "statuetta-madonna-di-pompei.png",
   "statuetta-pulcinella-2.png",
+  "statuetta-pulcinella-3.png",
   "statuetta-pulcinella.png",
   "statuetta-san-francesco.png",
+  "statuetta-santa-rita.png",
   "statuetta-totò-artigianale.png",
   "statuetta-venere-in-bronzo.png",
   "statuetta-vesuvio-artigianale.png",
@@ -59,4 +60,4 @@ export const productImageFilenames = [
   "vaso-pompei-antica.png",
 ] as const;
 
-export const productImageCount = 55;
+export const productImageCount = 56;

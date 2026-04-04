@@ -53,7 +53,7 @@ export const productImageFilenames = [
   "statuetta-venere-in-bronzo.png",
   "statuetta-vesuvio-artigianale.png",
   "tartaruga-in-bronzo.png",
-  "testa-san-gennaro-artiginale.png",
+  "testa-san-gennaro-artigianale.png",
   "tondo-sacro-da-appoggio.png",
   "vaso-pompei-antica-2.jpeg",
   "vaso-pompei-antica-3.jpeg",

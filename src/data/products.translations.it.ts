@@ -1,13 +1,6 @@
-import { productImageFilenames } from './generatedProductImageFilenames';
+import type { ProductContentTranslationByFilename } from './products.translations.shared';
 
-type ProductImageFilename = (typeof productImageFilenames)[number];
-
-export type ItalianProductContent = {
-  title: string;
-  description: string;
-};
-
-export const italianProductContentByFilename: Record<ProductImageFilename, ItalianProductContent> = {
+export const italianProductContentByFilename: ProductContentTranslationByFilename = {
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Acquasantiera Cuore di Gesù',
     description:
@@ -263,7 +256,7 @@ export const italianProductContentByFilename: Record<ProductImageFilename, Itali
     description:
       'Scultura in bronzo raffigurante una tartaruga, simbolo di longevità e stabilità. Realizzata con lavorazione artigianale.',
   },
-  'testa-san-gennaro-artiginale.png': {
+  'testa-san-gennaro-artigianale.png': {
     title: 'Testa San Gennaro Artigianale',
     description:
       "Raffigurazione della testa di San Gennaro realizzata con lavorazione artigianale e attenzione ai dettagli. Un oggetto simbolico della tradizione napoletana, ideale come elemento decorativo dal forte valore identitario.",

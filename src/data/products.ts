@@ -2,56 +2,53 @@ import type { LanguageCode } from '../types/app';
 import type { Product, ProductTranslation } from '../types/product';
 import { productImageFilenames } from './generatedProductImageFilenames';
 import { productBaseDataByFilename } from './products.base';
-import {
-  italianProductContentByFilename,
-  type ItalianProductContent,
-} from './products.translations.it';
+import { germanProductContentByFilename } from './products.translations.de';
+import { englishProductContentByFilename } from './products.translations.en';
+import { spanishProductContentByFilename } from './products.translations.es';
+import { frenchProductContentByFilename } from './products.translations.fr';
+import { italianProductContentByFilename } from './products.translations.it';
+import type { ProductImageFilename } from './products.translations.shared';
 
-const placeholderCopy: Record<LanguageCode, Omit<ProductTranslation, 'title'>> = {
-  it: {
-    description: 'Descrizione da definire.',
-    category: 'Categoria da definire',
-  },
-  en: {
-    description: 'Description to define.',
-    category: 'Category to define',
-  },
-  es: {
-    description: 'Descripcion por definir.',
-    category: 'Categoria por definir',
-  },
-  fr: {
-    description: 'Description a definir.',
-    category: 'Categorie a definir',
-  },
-  de: {
-    description: 'Beschreibung offen.',
-    category: 'Kategorie offen',
-  },
+const categoryCopy: Record<LanguageCode, ProductTranslation['category']> = {
+  it: 'Categoria da definire',
+  en: 'Category to define',
+  es: 'Categoria por definir',
+  fr: 'Categorie a definir',
+  de: 'Kategorie offen',
 };
 
-function buildTranslations(content: ItalianProductContent): Record<LanguageCode, ProductTranslation> {
+function buildTranslations(filename: ProductImageFilename): Record<LanguageCode, ProductTranslation> {
+  const italianContent = italianProductContentByFilename[filename];
+  const englishContent = englishProductContentByFilename[filename];
+  const spanishContent = spanishProductContentByFilename[filename];
+  const frenchContent = frenchProductContentByFilename[filename];
+  const germanContent = germanProductContentByFilename[filename];
+
   return {
     it: {
-      title: content.title,
-      description: content.description,
-      category: placeholderCopy.it.category,
+      title: italianContent.title,
+      description: italianContent.description,
+      category: categoryCopy.it,
     },
     en: {
-      title: content.title,
-      ...placeholderCopy.en,
+      title: englishContent.title,
+      description: englishContent.description,
+      category: categoryCopy.en,
     },
     es: {
-      title: content.title,
-      ...placeholderCopy.es,
+      title: spanishContent.title,
+      description: spanishContent.description,
+      category: categoryCopy.es,
     },
     fr: {
-      title: content.title,
-      ...placeholderCopy.fr,
+      title: frenchContent.title,
+      description: frenchContent.description,
+      category: categoryCopy.fr,
     },
     de: {
-      title: content.title,
-      ...placeholderCopy.de,
+      title: germanContent.title,
+      description: germanContent.description,
+      category: categoryCopy.de,
     },
   };
 }
@@ -69,7 +66,6 @@ function createProductId(filename: string, index: number) {
 
 export const products: Product[] = productImageFilenames.map((filename, index) => {
   const baseData = productBaseDataByFilename[filename];
-  const italianContent = italianProductContentByFilename[filename];
 
   return {
     id: createProductId(filename, index),
@@ -77,6 +73,6 @@ export const products: Product[] = productImageFilenames.map((filename, index) =
     size: baseData.size,
     image: `/product-images/${filename}`,
     currency: baseData.currency,
-    translations: buildTranslations(italianContent),
+    translations: buildTranslations(filename),
   };
 });

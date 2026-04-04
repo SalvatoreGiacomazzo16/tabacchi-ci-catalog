@@ -1,5 +1,5 @@
 import { Navigate, Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { defaultLanguage, languageOptions } from '../../app/config';
+import { defaultLanguage, footerTranslations, languageOptions } from '../../app/config';
 import type { LanguageCode } from '../../types/app';
 import { AppHeader } from './AppHeader';
 import { AppFooter } from './AppFooter';
@@ -40,8 +40,7 @@ export function CatalogLayout() {
         <Outlet context={{ selectedLanguage, setSelectedLanguage }} />
       </main>
 
-
-      <AppFooter />
+      <AppFooter contactLabel={footerTranslations[selectedLanguage].contactLabel} />
     </div>
   );
 }

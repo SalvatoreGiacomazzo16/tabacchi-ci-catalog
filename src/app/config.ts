@@ -1,6 +1,6 @@
 import type { LanguageCode, LanguageOption } from '../types/app';
 
-export const siteTitle = 'Tabacchi CI Catalog';
+export const siteTitle = 'Tabacchi CI';
 
 export const footerTranslations: Record<LanguageCode, { contactLabel: string }> = {
   it: { contactLabel: 'Per informazioni e personalizzazioni:' },

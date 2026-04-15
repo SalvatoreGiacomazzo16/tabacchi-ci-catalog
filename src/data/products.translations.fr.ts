@@ -72,12 +72,12 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
       'Corne porte-bonheur travaillée artisanalement selon la tradition napolitaine. Symbole de bon augure et de protection, elle est disponible en différents styles et variantes.',
   },
   'corno-portafortuna-sirena.jpeg': {
-    title: 'Corne porte-bonheur Sirène',
+    title: 'Queue de Sirène',
     description:
       'Corne porte-bonheur inspirée de la figure de la sirène, symbole de Naples. Une pièce artisanale qui unit tradition protectrice et identité locale.',
   },
   'corno-portafortuna-tentacolo.png': {
-    title: 'Corne porte-bonheur Tentacule',
+    title: 'Tentacule',
     description:
       'Corne au design original inspiré des formes marines, travaillée à la main et caractérisée par un style moderne et distinctif. Un objet symbolique revisité dans une clé contemporaine.',
   },

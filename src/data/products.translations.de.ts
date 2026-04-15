@@ -72,12 +72,12 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
       'Kunsthandwerklich gefertigtes Glückshorn nach neapolitanischer Tradition. Symbol für guten Zuspruch und Schutz, erhältlich in verschiedenen Varianten und Stilrichtungen.',
   },
   'corno-portafortuna-sirena.jpeg': {
-    title: 'Glückshorn Sirene',
+    title: 'Meerjungfrauenschwanz',
     description:
       'Von der Sirene, dem Symbol Neapels, inspiriertes Glückshorn. Ein kunsthandwerkliches Objekt, das Schutztradition und lokale Identität miteinander verbindet.',
   },
   'corno-portafortuna-tentacolo.png': {
-    title: 'Glückshorn Tentakel',
+    title: 'Tentakel',
     description:
       'Glückshorn mit originellem, von Meeresformen inspiriertem Design, handgearbeitet und von einem modernen, unverwechselbaren Stil geprägt. Ein symbolisches Objekt in zeitgenössischer Neuinterpretation.',
   },

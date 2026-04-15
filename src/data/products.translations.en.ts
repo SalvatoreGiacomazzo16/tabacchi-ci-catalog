@@ -72,12 +72,12 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
       'Handcrafted lucky horn made in keeping with Neapolitan tradition. A symbol of protection and good fortune, available in different variants and styles.',
   },
   'corno-portafortuna-sirena.jpeg': {
-    title: 'Siren Lucky Horn',
+    title: 'Mermaid Tail',
     description:
       'Lucky horn inspired by the siren, a symbol of Naples. A handcrafted piece that unites protective tradition with local identity.',
   },
   'corno-portafortuna-tentacolo.png': {
-    title: 'Tentacle Lucky Horn',
+    title: 'Tentacle',
     description:
       'Lucky horn with an original design inspired by marine forms, handmade and defined by a modern, distinctive style. A symbolic object reinterpreted in a contemporary way.',
   },

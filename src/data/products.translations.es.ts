@@ -72,12 +72,12 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
       'Cuerno de la suerte trabajado artesanalmente según la tradición napolitana. Símbolo de buen augurio y protección, disponible en distintas variantes y estilos.',
   },
   'corno-portafortuna-sirena.jpeg': {
-    title: 'Cuerno de la suerte Sirena',
+    title: 'Cola de Sirena',
     description:
       'Cuerno de la suerte inspirado en la figura de la sirena, símbolo de Nápoles. Una pieza artesanal que une la tradición propiciatoria con la identidad del territorio.',
   },
   'corno-portafortuna-tentacolo.png': {
-    title: 'Cuerno de la suerte Tentáculo',
+    title: 'Tentáculo',
     description:
       'Cuerno de diseño original inspirado en formas marinas, trabajado a mano y caracterizado por un estilo moderno y distintivo. Un objeto simbólico reinterpretado en clave contemporánea.',
   },

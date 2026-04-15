@@ -72,12 +72,12 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
       'Corno portafortuna lavorato artigianalmente secondo la tradizione napoletana. Simbolo di buon auspicio e protezione, disponibile in diverse varianti e stili.',
   },
   'corno-portafortuna-sirena.jpeg': {
-    title: 'Corno Portafortuna Sirena',
+    title: 'Coda di Sirena',
     description:
       'Corno portafortuna ispirato alla figura della sirena, simbolo di Napoli. Unione tra tradizione scaramantica e identità territoriale, realizzato artigianalmente.',
   },
   'corno-portafortuna-tentacolo.png': {
-    title: 'Corno Portafortuna Tentacolo',
+    title: 'Tentacolo',
     description:
       'Corno dal design originale ispirato a forme marine, lavorato a mano e caratterizzato da uno stile moderno e distintivo. Un oggetto simbolico rivisitato in chiave contemporanea.',
   },

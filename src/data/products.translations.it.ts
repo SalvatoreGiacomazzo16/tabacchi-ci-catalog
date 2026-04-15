@@ -1,5 +1,29 @@
 import type { ProductContentTranslationByFilename } from './products.translations.shared';
 
+const pulcinellaLongDescription = [
+  '🎭 Pulcinella – Maschera della Tradizione Napoletana',
+  'Pulcinella rappresenta una delle figure più iconiche e radicate nella tradizione partenopea, un simbolo che attraversa i secoli portando con sé l’anima più autentica del popolo napoletano. Nato nell’ambito della Commedia dell’Arte tra il XVI e il XVII secolo, Pulcinella incarna il dualismo umano: ingenuo e furbo, povero ma arguto, malinconico e ironico allo stesso tempo.',
+  'La sua maschera, dal caratteristico naso adunco e dai tratti marcati, è immediatamente riconoscibile e custodisce un valore simbolico profondo. Essa non è soltanto un elemento estetico, ma un vero e proprio linguaggio visivo che racconta la resilienza, la capacità di adattamento e la saggezza popolare. Il suo abito bianco, semplice e privo di ornamenti, richiama l’umiltà e l’essenzialità della vita quotidiana, mentre il cappello a punta ne esalta la figura caricaturale e teatrale.',
+  'Realizzato secondo le antiche tecniche dell’artigianato napoletano, questo manufatto si distingue per l’uso di materiali tradizionali e lavorazioni manuali che ne esaltano unicità e autenticità. Ogni dettaglio, dalla texture alla finitura, richiama un sapere tramandato nel tempo, rendendo ogni pezzo non solo un oggetto decorativo, ma un frammento di storia e cultura.',
+  'Pulcinella non è soltanto una maschera: è una voce, una risata, un modo di affrontare la vita. È Napoli stessa, nella sua forma più pura.',
+];
+
+const bartoloLongoLongDescription = [
+  '⛪ Bartolo Longo – Fede, Storia e Tradizione',
+  'Bartolo Longo è una figura centrale nella storia religiosa e culturale della Campania, profondamente legata al Santuario della Beata Vergine del Rosario di Pompei, da lui fondato nella seconda metà del XIX secolo. La sua vita rappresenta un percorso di trasformazione e redenzione, che lo ha portato a diventare uno dei principali promotori del culto mariano in Italia.',
+  'La sua opera non si limita alla dimensione spirituale, ma si estende anche a quella sociale, attraverso iniziative di assistenza e sostegno rivolte ai più bisognosi. Il Santuario di Pompei, oggi meta di pellegrinaggi da tutto il mondo, testimonia la portata del suo impegno e la profondità della sua visione.',
+  'Questa rappresentazione artigianale rende omaggio alla sua figura con uno stile che richiama la tradizione iconografica religiosa, unendo elementi di devozione a una lavorazione attenta e rispettosa dei canoni storici. Le linee, i dettagli e le finiture sono il risultato di una tecnica che affonda le radici nella cultura locale, mantenendo viva una tradizione secolare.',
+  'Bartolo Longo non è soltanto un personaggio storico: è un simbolo di fede, determinazione e rinascita. Un’eredità che continua a vivere nel tempo, attraverso luoghi, opere e testimonianze.',
+];
+
+const cornoPortafortunaLongDescription = [
+  "🌶️ Il corno discende dal fallus pompeiano, simbolo di potere e fertilita, poi messo al bando nell'epoca cristiana in quanto simbolo pagano.",
+  "Agli inizi del settecento alcuni artigiani napoletani dell'epoca pensarono bene di ingentilirne la forma, trasformandolo in un corno. L'attuale corno ha una lavorazione ancora oggi come quella del settecento.",
+  'Realizzato interamente a mano, costituito da argilla e poi cotto nelle fornaci a 960 gradi.',
+  'Una volta ottenuto il biscotto di terracotta viene smaltato con ceramica cristallizzata e rimesso in cottura a 1000 gradi.',
+  'In questo modo si ottengono lucentezza e particolari che li distingue da altri tipi di lavorazioni. I ns corni oltre a rappresentare un simbolo di potere, fertilita e fortuna, sono arredi e oggetti da regalo mai banali, particolari nella forma e nei colori, pezzi di design.',
+];
+
 export const italianProductContentByFilename: ProductContentTranslationByFilename = {
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Acquasantiera Cuore di Gesù',
@@ -15,11 +39,6 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Bambin Gesù in Culla Artigianale',
     description:
       'Bambin Gesù adagiato su culletta decorata, realizzato artigianalmente e personalizzabile su prenotazione. Un prodotto unico, lavorato con tecniche sartoriali che ne valorizzano ogni dettaglio.',
-  },
-  'bambin-gesù-in-culla-celeste.png': {
-    title: 'Bambin Gesù in Culla Celeste',
-    description:
-      'Bambin Gesù adagiato su culletta finemente decorata con tessuto blu, realizzato a mano e personalizzabile su richiesta. Un oggetto unico, valorizzato da lavorazioni artigianali che ne esaltano ogni particolare.',
   },
   'busto-pulcinella-artigianale.png': {
     title: 'Busto Pulcinella Artigianale',
@@ -65,11 +84,13 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Corno Portafortuna',
     description:
       'Corno portafortuna realizzato artigianalmente secondo la tradizione napoletana. Simbolo di protezione, fortuna e prosperità, disponibile in diverse varianti e finiture.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-2.png': {
     title: 'Corno Portafortuna 2',
     description:
       'Corno portafortuna lavorato artigianalmente secondo la tradizione napoletana. Simbolo di buon auspicio e protezione, disponibile in diverse varianti e stili.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-sirena.jpeg': {
     title: 'Coda di Sirena',
@@ -80,11 +101,6 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Tentacolo',
     description:
       'Corno dal design originale ispirato a forme marine, lavorato a mano e caratterizzato da uno stile moderno e distintivo. Un oggetto simbolico rivisitato in chiave contemporanea.',
-  },
-  'crocifisso-artigianale.png': {
-    title: 'Crocifisso Artigianale',
-    description:
-      "Crocifisso realizzato su base in legno con figura in ottone, lavorato artigianalmente. Un oggetto religioso classico, ideale per ambienti domestici o come regalo significativo.",
   },
   'cuori-di-gesù.png': {
     title: 'Cuori di Gesù',
@@ -150,6 +166,7 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Quadretto Bartolo Longo',
     description:
       'Quadretto raffigurante Bartolo Longo, realizzato con materiali di qualità e finiture curate. Un oggetto simbolico legato alla devozione e alla storia di Pompei.',
+    longDescription: bartoloLongoLongDescription,
   },
   'quadretto-sacro.png': {
     title: 'Quadretto Sacro',
@@ -215,16 +232,19 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Statuetta Pulcinella',
     description:
       "Statua artigianale raffigurante Pulcinella, simbolo della città di Napoli e della commedia dell'arte. Un oggetto iconico, ironico e tradizionale.",
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-2.png': {
     title: 'Statuetta Pulcinella 2',
     description:
       "Figura artigianale raffigurante Pulcinella, emblema della tradizione napoletana. Un oggetto iconico che rappresenta ironia, cultura e identità popolare.",
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-3.png': {
     title: 'Statuetta Pulcinella 3',
     description:
       "Statuetta raffigurante Pulcinella, realizzata secondo le antiche tecniche dell'artigianato napoletano. Lavorata con cura e cotta per esaltarne forme e dettagli, rappresenta in modo autentico lo spirito ironico e popolare della tradizione partenopea. Un oggetto decorativo dal forte carattere, ideale come simbolo identitario e culturale.",
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-san-francesco.png': {
     title: 'Statua San Francesco',
@@ -240,6 +260,13 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Statua Totò',
     description:
       'Statua raffigurante Totò, il principe della risata, uno dei più grandi interpreti del teatro e del cinema italiano. Un omaggio alla cultura napoletana.',
+    longDescription: [
+      '🎬 Totò - Omaggio al Principe della Risata',
+      "Antonio de Curtis, universalmente conosciuto come Totò, rappresenta una delle figure più emblematiche della cultura italiana del Novecento. Nato a Napoli nel 1898, Totò ha incarnato l'essenza della comicità partenopea, elevandola a forma d'arte riconosciuta a livello nazionale e internazionale.",
+      'La sua espressività, fatta di mimica, gestualità e tempi comici perfetti, ha dato vita a un linguaggio unico, capace di unire ironia, satira sociale e una sottile malinconia. Dietro il sorriso e la battuta, infatti, si celava spesso una critica lucida alle contraddizioni della società, rendendo le sue opere attuali ancora oggi.',
+      "Questa rappresentazione artistica rende omaggio alla sua figura attraverso un'estetica che richiama i tratti distintivi del volto e della personalità dell'attore. La lavorazione artigianale, ispirata alle tecniche tradizionali napoletane, conferisce profondità e carattere all'opera, trasformandola in un tributo autentico e rispettoso.",
+      "Ogni elemento è pensato per evocare la memoria di un artista che ha saputo trasformare la semplicità in genialità. Totò non è soltanto un simbolo della comicità: è un patrimonio culturale, un punto di riferimento che continua a vivere nell'immaginario collettivo.",
+    ],
   },
   'statuetta-venere-in-bronzo.png': {
     title: 'Statuetta Venere in Bronzo',
@@ -260,11 +287,6 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Testa San Gennaro Artigianale',
     description:
       "Raffigurazione della testa di San Gennaro realizzata con lavorazione artigianale e attenzione ai dettagli. Un oggetto simbolico della tradizione napoletana, ideale come elemento decorativo dal forte valore identitario.",
-  },
-  'tondo-sacro-da-appoggio.png': {
-    title: 'Tondo Sacro da Appoggio',
-    description:
-      "Elemento decorativo raffigurante immagine sacra, realizzato con cura nei dettagli e progettato per essere posizionato su superfici d'appoggio. Un oggetto elegante e simbolico, ideale per arricchire ambienti con un tocco di spiritualità e raffinatezza.",
   },
   'vaso-pompei-antica.png': {
     title: 'Vaso Pompei Antica 1',

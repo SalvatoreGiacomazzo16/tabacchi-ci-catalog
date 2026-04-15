@@ -28,26 +28,31 @@ function buildTranslations(filename: ProductImageFilename): Record<LanguageCode,
     it: {
       title: italianContent.title,
       description: italianContent.description,
+      longDescription: italianContent.longDescription,
       category: categoryCopy.it,
     },
     en: {
       title: englishContent.title,
       description: englishContent.description,
+      longDescription: englishContent.longDescription,
       category: categoryCopy.en,
     },
     es: {
       title: spanishContent.title,
       description: spanishContent.description,
+      longDescription: spanishContent.longDescription,
       category: categoryCopy.es,
     },
     fr: {
       title: frenchContent.title,
       description: frenchContent.description,
+      longDescription: frenchContent.longDescription,
       category: categoryCopy.fr,
     },
     de: {
       title: germanContent.title,
       description: germanContent.description,
+      longDescription: germanContent.longDescription,
       category: categoryCopy.de,
     },
   };

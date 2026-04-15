@@ -3,6 +3,7 @@ import type { LanguageCode } from './app';
 export type ProductTranslation = {
   title: string;
   description: string;
+  longDescription?: string[];
   category: string;
 };
 

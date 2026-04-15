@@ -1,5 +1,29 @@
 import type { ProductContentTranslationByFilename } from './products.translations.shared';
 
+const pulcinellaLongDescription = [
+  '🎭 Pulcinella - Masque de la tradition napolitaine',
+  'Pulcinella représente l’une des figures les plus emblématiques et les plus enracinées de la tradition parténopéenne, un symbole qui traverse les siècles en portant avec lui l’âme la plus authentique du peuple napolitain. Né dans le cadre de la Commedia dell’Arte entre les XVIe et XVIIe siècles, Pulcinella incarne le dualisme humain : naïf et rusé, pauvre mais plein d’esprit, mélancolique et ironique à la fois.',
+  'Son masque, avec son nez crochu caractéristique et ses traits marqués, est immédiatement reconnaissable et renferme une profonde valeur symbolique. Il ne s’agit pas seulement d’un élément esthétique, mais d’un véritable langage visuel qui raconte la résilience, la capacité d’adaptation et la sagesse populaire. Son habit blanc, simple et dépourvu d’ornements, évoque l’humilité et l’essentiel de la vie quotidienne, tandis que son chapeau pointu accentue sa figure théâtrale et caricaturale.',
+  'Réalisée selon les anciennes techniques de l’artisanat napolitain, cette création se distingue par l’emploi de matériaux traditionnels et de finitions manuelles qui en exaltent l’unicité et l’authenticité. Chaque détail, de la texture à la finition, évoque un savoir transmis au fil du temps, faisant de chaque pièce non seulement un objet décoratif, mais aussi un fragment d’histoire et de culture.',
+  'Pulcinella n’est pas seulement un masque : il est une voix, un rire, une manière d’affronter la vie. Il est Naples elle-même, dans sa forme la plus pure.',
+];
+
+const bartoloLongoLongDescription = [
+  '⛪ Bartolo Longo - Foi, histoire et tradition',
+  'Bartolo Longo est une figure centrale de l’histoire religieuse et culturelle de la Campanie, profondément liée au Sanctuaire de la Bienheureuse Vierge du Rosaire de Pompéi, qu’il fonda dans la seconde moitié du XIXe siècle. Sa vie représente un parcours de transformation et de rédemption qui le conduisit à devenir l’un des principaux promoteurs du culte marial en Italie.',
+  'Son œuvre ne se limite pas à la dimension spirituelle, mais s’étend également au domaine social, à travers des initiatives d’assistance et de soutien destinées aux plus démunis. Le Sanctuaire de Pompéi, aujourd’hui lieu de pèlerinage pour des visiteurs venus du monde entier, témoigne de l’ampleur de son engagement et de la profondeur de sa vision.',
+  'Cette représentation artisanale rend hommage à sa figure dans un style qui évoque la tradition iconographique religieuse, en unissant des éléments de dévotion à un travail attentif et respectueux des canons historiques. Les lignes, les détails et les finitions sont le fruit d’une technique enracinée dans la culture locale, qui maintient vivante une tradition séculaire.',
+  'Bartolo Longo n’est pas seulement un personnage historique : il est un symbole de foi, de détermination et de renaissance. Un héritage qui continue de vivre à travers les lieux, les œuvres et les témoignages.',
+];
+
+const cornoPortafortunaLongDescription = [
+  '🌶️ La corne descend du phallus pompéien, symbole de puissance et de fertilité, puis interdite à l’époque chrétienne en tant que symbole païen.',
+  'Au début du XVIIIe siècle, certains artisans napolitains décidèrent d’en adoucir la forme, en la transformant en corne. La corne actuelle conserve encore aujourd’hui une fabrication fidèle à celle du XVIIIe siècle.',
+  'Réalisée entièrement à la main, elle est composée d’argile puis cuite dans des fours à 960 degrés.',
+  'Une fois obtenu le biscuit de terre cuite, il est émaillé avec une céramique cristallisée puis remis en cuisson à 1000 degrés.',
+  'On obtient ainsi une brillance et des détails qui la distinguent d’autres types de fabrication. Nos cornes, au-delà de représenter un symbole de puissance, de fertilité et de chance, sont aussi des objets d’ameublement et des cadeaux jamais banals, singuliers par leur forme et leurs couleurs, de véritables pièces de design.',
+];
+
 export const frenchProductContentByFilename: ProductContentTranslationByFilename = {
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Bénitier du Sacré-Cœur',
@@ -15,11 +39,6 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Enfant Jésus en berceau artisanal',
     description:
       "Enfant Jésus allongé sur un berceau décoré, réalisé artisanalement et personnalisable sur commande. Une pièce unique, travaillée avec des techniques de confection qui mettent en valeur chaque détail.",
-  },
-  'bambin-gesù-in-culla-celeste.png': {
-    title: 'Enfant Jésus en berceau bleu',
-    description:
-      "Enfant Jésus allongé sur un berceau finement décoré de tissu bleu, réalisé à la main et personnalisable sur demande. Un objet unique, valorisé par un travail artisanal qui exalte chaque détail.",
   },
   'busto-pulcinella-artigianale.png': {
     title: 'Buste artisanal de Pulcinella',
@@ -65,11 +84,13 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Corne porte-bonheur',
     description:
       'Corne porte-bonheur réalisée artisanalement selon la tradition napolitaine. Symbole de protection, de chance et de prospérité, elle est proposée en différentes variantes et finitions.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-2.png': {
     title: 'Corne porte-bonheur 2',
     description:
       'Corne porte-bonheur travaillée artisanalement selon la tradition napolitaine. Symbole de bon augure et de protection, elle est disponible en différents styles et variantes.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-sirena.jpeg': {
     title: 'Queue de Sirène',
@@ -80,11 +101,6 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Tentacule',
     description:
       'Corne au design original inspiré des formes marines, travaillée à la main et caractérisée par un style moderne et distinctif. Un objet symbolique revisité dans une clé contemporaine.',
-  },
-  'crocifisso-artigianale.png': {
-    title: 'Crucifix artisanal',
-    description:
-      'Crucifix réalisé sur une base en bois avec une figure en laiton, travaillé artisanalement. Un objet religieux classique, idéal pour la maison ou comme cadeau significatif.',
   },
   'cuori-di-gesù.png': {
     title: 'Cœurs de Jésus',
@@ -150,6 +166,7 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Tableau Bartolo Longo',
     description:
       'Tableau représentant Bartolo Longo, réalisé avec des matériaux de qualité et des finitions soignées. Un objet symbolique lié à la dévotion et à l’histoire de Pompéi.',
+    longDescription: bartoloLongoLongDescription,
   },
   'quadretto-sacro.png': {
     title: 'Tableau sacré',
@@ -215,16 +232,19 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Statuette de Pulcinella',
     description:
       'Statue artisanale représentant Pulcinella, symbole de la ville de Naples et de la commedia dell’arte. Un objet iconique, ironique et traditionnel.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-2.png': {
     title: 'Statuette de Pulcinella 2',
     description:
       'Figure artisanale représentant Pulcinella, emblème de la tradition napolitaine. Un objet iconique qui exprime ironie, culture et identité populaire.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-3.png': {
     title: 'Statuette de Pulcinella 3',
     description:
       'Statuette représentant Pulcinella, réalisée selon les anciennes techniques de l’artisanat napolitain. Travaillée avec soin et cuite pour mettre en valeur formes et détails, elle exprime avec authenticité l’esprit ironique et populaire de la tradition parténopéenne. Un objet décoratif au fort caractère, idéal comme symbole identitaire et culturel.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-san-francesco.png': {
     title: 'Statue de saint François',
@@ -240,6 +260,13 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Statue de Totò',
     description:
       'Statue représentant Totò, le prince du rire et l’un des plus grands interprètes du théâtre et du cinéma italiens. Un hommage à la culture napolitaine.',
+    longDescription: [
+      'Totò - Hommage au Prince du rire',
+      "Antonio de Curtis, universellement connu sous le nom de Totò, représente l'une des figures les plus emblématiques de la culture italienne du XXe siècle. Né à Naples en 1898, Totò a incarné l'essence de la comédie napolitaine, en l'élevant au rang d'art reconnu au niveau national et international.",
+      "Son expressivité, faite de mimiques, de gestes et d'un sens parfait du tempo comique, a donné naissance à un langage unique, capable d'unir ironie, satire sociale et subtile mélancolie. Derrière le sourire et la réplique se cachait en effet souvent une critique lucide des contradictions de la société, ce qui rend encore ses œuvres actuelles aujourd'hui.",
+      "Cette représentation artistique rend hommage à sa figure à travers une esthétique qui rappelle les traits distinctifs du visage et de la personnalité de l'acteur. Le travail artisanal, inspiré des techniques traditionnelles napolitaines, confère profondeur et caractère à l'œuvre, la transformant en un hommage authentique et respectueux.",
+      "Chaque élément est pensé pour évoquer la mémoire d'un artiste qui a su transformer la simplicité en génie. Totò n'est pas seulement un symbole de la comédie : c'est un patrimoine culturel, un repère qui continue de vivre dans l'imaginaire collectif.",
+    ],
   },
   'statuetta-venere-in-bronzo.png': {
     title: 'Statuette de Vénus en bronze',
@@ -260,11 +287,6 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Tête artisanale de San Gennaro',
     description:
       'Représentation de la tête de San Gennaro réalisée avec un travail artisanal et une grande attention aux détails. Un objet symbolique de la tradition napolitaine, idéal comme élément décoratif à forte valeur identitaire.',
-  },
-  'tondo-sacro-da-appoggio.png': {
-    title: 'Tondo sacré à poser',
-    description:
-      'Élément décoratif représentant une image sacrée, réalisé avec soin dans les détails et conçu pour être posé sur une surface. Un objet élégant et symbolique, idéal pour enrichir les intérieurs d’une touche de spiritualité et de raffinement.',
   },
   'vaso-pompei-antica.png': {
     title: 'Vase Pompéi Antique 1',

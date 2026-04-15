@@ -1,5 +1,29 @@
 import type { ProductContentTranslationByFilename } from './products.translations.shared';
 
+const pulcinellaLongDescription = [
+  '🎭 Pulcinella - Mask of Neapolitan Tradition',
+  "Pulcinella stands as one of the most iconic and deeply rooted figures of the Neapolitan tradition, a symbol that has crossed the centuries while carrying the most authentic spirit of the people of Naples. Born within the world of the Commedia dell'Arte between the sixteenth and seventeenth centuries, Pulcinella embodies human duality: naive yet shrewd, poor yet witty, melancholic and ironic at the same time.",
+  'His mask, with its distinctive hooked nose and marked features, is immediately recognizable and holds profound symbolic value. It is not merely an aesthetic element, but a true visual language that speaks of resilience, adaptability, and popular wisdom. His simple white garment, free of ornament, recalls the humility and essential nature of everyday life, while the pointed hat enhances his theatrical, caricature-like figure.',
+  'Crafted according to the ancient techniques of Neapolitan artisanship, this piece stands out for the use of traditional materials and hand-finished workmanship that enhance its uniqueness and authenticity. Every detail, from texture to finish, reflects knowledge handed down through time, making each piece not only a decorative object, but also a fragment of history and culture.',
+  'Pulcinella is not merely a mask: he is a voice, a laugh, a way of facing life. He is Naples itself, in its purest form.',
+];
+
+const bartoloLongoLongDescription = [
+  '⛪ Bartolo Longo - Faith, History, and Tradition',
+  'Bartolo Longo is a central figure in the religious and cultural history of Campania, deeply linked to the Shrine of Our Lady of the Rosary of Pompeii, which he founded in the second half of the nineteenth century. His life represents a journey of transformation and redemption that led him to become one of the foremost promoters of Marian devotion in Italy.',
+  'His work extends beyond the spiritual dimension into the social one as well, through initiatives of care and support for those most in need. The Shrine of Pompeii, now a destination for pilgrims from all over the world, bears witness to the scope of his commitment and the depth of his vision.',
+  'This handcrafted representation pays tribute to his figure through a style that recalls the tradition of religious iconography, combining elements of devotion with workmanship that is attentive and respectful of historical canons. The lines, details, and finishes are the result of a technique rooted in local culture, keeping a centuries-old tradition alive.',
+  'Bartolo Longo is not merely a historical figure: he is a symbol of faith, determination, and rebirth. A legacy that continues to live on through places, works, and testimonies.',
+];
+
+const cornoPortafortunaLongDescription = [
+  '🌶️ The corno descends from the Pompeian phallus, a symbol of power and fertility, later banned during the Christian era as a pagan emblem.',
+  'At the beginning of the eighteenth century, some Neapolitan artisans decided to soften its form, transforming it into a horn. Even today, the corno is still crafted according to eighteenth-century workmanship.',
+  'Made entirely by hand, it is formed from clay and then fired in kilns at 960 degrees.',
+  'Once the terracotta biscuit has been obtained, it is glazed with crystallized ceramic and fired again at 1000 degrees.',
+  'In this way it acquires a shine and distinctive details that set it apart from other kinds of workmanship. Our corni, beyond representing a symbol of power, fertility, and good fortune, are furnishings and gift objects that are never ordinary: distinctive in shape and color, true design pieces.',
+];
+
 export const englishProductContentByFilename: ProductContentTranslationByFilename = {
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Sacred Heart Holy Water Font',
@@ -15,11 +39,6 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Handcrafted Baby Jesus in Cradle',
     description:
       'Baby Jesus resting on a decorated cradle, handcrafted and customizable by reservation. A unique piece made with tailoring techniques that enhance every detail.',
-  },
-  'bambin-gesù-in-culla-celeste.png': {
-    title: 'Baby Jesus in Blue Cradle',
-    description:
-      'Baby Jesus resting on a finely decorated cradle with blue fabric, handmade and customizable on request. A unique piece enhanced by artisanal workmanship that highlights every detail.',
   },
   'busto-pulcinella-artigianale.png': {
     title: 'Handcrafted Pulcinella Bust',
@@ -65,11 +84,13 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Lucky Horn',
     description:
       'Handcrafted lucky horn made according to Neapolitan tradition. A symbol of protection, good fortune, and prosperity, available in various styles and finishes.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-2.png': {
     title: 'Lucky Horn 2',
     description:
       'Handcrafted lucky horn made in keeping with Neapolitan tradition. A symbol of protection and good fortune, available in different variants and styles.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-sirena.jpeg': {
     title: 'Mermaid Tail',
@@ -80,11 +101,6 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Tentacle',
     description:
       'Lucky horn with an original design inspired by marine forms, handmade and defined by a modern, distinctive style. A symbolic object reinterpreted in a contemporary way.',
-  },
-  'crocifisso-artigianale.png': {
-    title: 'Handcrafted Crucifix',
-    description:
-      'Crucifix made on a wooden base with a brass figure, entirely handcrafted. A classic religious piece, ideal for the home or as a meaningful gift.',
   },
   'cuori-di-gesù.png': {
     title: 'Sacred Hearts of Jesus',
@@ -150,6 +166,7 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Bartolo Longo Picture',
     description:
       'Small picture depicting Bartolo Longo, made with quality materials and refined finishes. A symbolic piece linked to devotion and to the history of Pompeii.',
+    longDescription: bartoloLongoLongDescription,
   },
   'quadretto-sacro.png': {
     title: 'Sacred Picture',
@@ -215,16 +232,19 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Pulcinella Statuette',
     description:
       "Handcrafted statue depicting Pulcinella, symbol of the city of Naples and of the commedia dell'arte. An iconic, ironic, and traditional piece.",
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-2.png': {
     title: 'Pulcinella Statuette 2',
     description:
       'Handcrafted figure depicting Pulcinella, emblem of Neapolitan tradition. An iconic piece that expresses irony, culture, and popular identity.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-3.png': {
     title: 'Pulcinella Statuette 3',
     description:
       'Statuette depicting Pulcinella, made according to the ancient techniques of Neapolitan craftsmanship. Carefully worked and fired to enhance its form and details, it authentically embodies the ironic and popular spirit of local tradition. A decorative piece with strong character, ideal as a cultural symbol.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-san-francesco.png': {
     title: 'Saint Francis Statue',
@@ -240,6 +260,13 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Totò Statue',
     description:
       'Statue depicting Totò, the Prince of Laughter and one of the greatest figures of Italian theatre and cinema. A tribute to Neapolitan culture.',
+    longDescription: [
+      'Totò - Tribute to the Prince of Laughter',
+      'Antonio de Curtis, universally known as Totò, is one of the most emblematic figures of twentieth-century Italian culture. Born in Naples in 1898, Totò embodied the essence of Neapolitan comedy, elevating it into an art form recognized nationally and internationally.',
+      "His expressiveness, built on mime, gesture, and impeccable comic timing, created a unique language capable of blending irony, social satire, and a subtle melancholy. Behind the smile and the punchline there was often a lucid critique of society's contradictions, which is why his work still feels relevant today.",
+      "This artistic representation pays tribute to his figure through an aesthetic that recalls the distinctive traits of the actor's face and personality. The handcrafted workmanship, inspired by traditional Neapolitan techniques, gives the piece depth and character, turning it into an authentic and respectful homage.",
+      'Every element is designed to evoke the memory of an artist who knew how to transform simplicity into genius. Totò is not merely a symbol of comedy: he is a cultural legacy, a point of reference that continues to live on in the collective imagination.',
+    ],
   },
   'statuetta-venere-in-bronzo.png': {
     title: 'Bronze Venus Statuette',
@@ -260,11 +287,6 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Handcrafted Head of San Gennaro',
     description:
       'Representation of the head of San Gennaro, crafted by hand with careful attention to detail. A symbolic piece of Neapolitan tradition, ideal as a decorative object with strong local identity.',
-  },
-  'tondo-sacro-da-appoggio.png': {
-    title: 'Freestanding Sacred Tondo',
-    description:
-      'Decorative piece depicting a sacred image, carefully finished and designed to be placed on supporting surfaces. An elegant and symbolic object, ideal for enriching interiors with spirituality and refinement.',
   },
   'vaso-pompei-antica.png': {
     title: 'Ancient Pompeii Vase 1',

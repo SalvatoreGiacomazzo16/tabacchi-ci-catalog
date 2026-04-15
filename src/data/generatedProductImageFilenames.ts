@@ -5,7 +5,6 @@ export const productImageFilenames = [
   "acquasantiera-raffigurante-cristo.png",
   "bambin-gesù-artigianale.png",
   "bambin-gesù-in-culla-artigianale.png",
-  "bambin-gesù-in-culla-celeste.png",
   "busto-pulcinella-artigianale-2.png",
   "busto-pulcinella-artigianale.png",
   "busto-san-gennaro-artigianale.png",
@@ -18,7 +17,6 @@ export const productImageFilenames = [
   "corno-portafortuna-sirena.jpeg",
   "corno-portafortuna-tentacolo.png",
   "corno-portafortuna.png",
-  "crocifisso-artigianale.png",
   "cuori-di-gesù.png",
   "diorama-pompei-artigianale.png",
   "gatto-accovacciato-in-bronzo.png",
@@ -54,10 +52,9 @@ export const productImageFilenames = [
   "statuetta-vesuvio-artigianale.png",
   "tartaruga-in-bronzo.png",
   "testa-san-gennaro-artigianale.png",
-  "tondo-sacro-da-appoggio.png",
   "vaso-pompei-antica-2.jpeg",
   "vaso-pompei-antica-3.jpeg",
   "vaso-pompei-antica.png",
 ] as const;
 
-export const productImageCount = 56;
+export const productImageCount = 53;

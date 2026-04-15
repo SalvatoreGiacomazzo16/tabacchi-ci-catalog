@@ -1,5 +1,29 @@
 import type { ProductContentTranslationByFilename } from './products.translations.shared';
 
+const pulcinellaLongDescription = [
+  '🎭 Pulcinella - Maske der neapolitanischen Tradition',
+  'Pulcinella ist eine der ikonischsten und tief verwurzelten Figuren der partenopeischen Tradition, ein Symbol, das die Jahrhunderte durchschreitet und dabei die authentischste Seele des neapolitanischen Volkes mit sich trägt. Entstanden im Umfeld der Commedia dell’Arte zwischen dem 16. und 17. Jahrhundert, verkörpert Pulcinella die menschliche Dualität: naiv und listig, arm und doch schlagfertig, melancholisch und zugleich ironisch.',
+  'Seine Maske mit der charakteristischen Hakennase und den markanten Zügen ist sofort erkennbar und besitzt einen tiefen symbolischen Wert. Sie ist nicht nur ein ästhetisches Element, sondern eine echte Bildsprache, die von Widerstandskraft, Anpassungsfähigkeit und volkstümlicher Weisheit erzählt. Sein schlichtes weißes Gewand ohne Verzierungen verweist auf die Demut und Wesentlichkeit des Alltags, während die spitze Mütze seine karikaturhafte und theatralische Gestalt betont.',
+  'Nach den alten Techniken des neapolitanischen Kunsthandwerks gefertigt, zeichnet sich dieses Werkstück durch die Verwendung traditioneller Materialien und handwerklicher Bearbeitung aus, die seine Einzigartigkeit und Authentizität hervorheben. Jedes Detail, von der Textur bis zur Oberfläche, verweist auf ein überliefertes Wissen und macht jedes Stück nicht nur zu einem Dekorationsobjekt, sondern zu einem Fragment von Geschichte und Kultur.',
+  'Pulcinella ist nicht nur eine Maske: Er ist eine Stimme, ein Lachen, eine Art, dem Leben zu begegnen. Er ist Neapel selbst, in seiner reinsten Form.',
+];
+
+const bartoloLongoLongDescription = [
+  '⛪ Bartolo Longo - Glaube, Geschichte und Tradition',
+  'Bartolo Longo ist eine zentrale Figur in der religiösen und kulturellen Geschichte Kampaniens und eng mit dem Heiligtum der Seligen Jungfrau vom Rosenkranz in Pompeji verbunden, das er in der zweiten Hälfte des 19. Jahrhunderts gründete. Sein Leben steht für einen Weg der Verwandlung und Erlösung, der ihn zu einem der wichtigsten Förderer der Marienverehrung in Italien machte.',
+  'Sein Wirken beschränkt sich nicht auf die spirituelle Dimension, sondern erstreckt sich auch auf die soziale Ebene durch Initiativen der Hilfe und Unterstützung für Bedürftige. Das Heiligtum von Pompeji, heute Ziel von Pilgern aus aller Welt, bezeugt die Tragweite seines Engagements und die Tiefe seiner Vision.',
+  'Diese kunsthandwerkliche Darstellung würdigt seine Gestalt mit einem Stil, der an die religiöse Ikonographie anknüpft und Elemente der Andacht mit einer sorgfältigen, den historischen Kanons verpflichteten Ausführung verbindet. Linien, Details und Oberflächen sind das Ergebnis einer Technik, die in der lokalen Kultur verwurzelt ist und eine jahrhundertealte Tradition lebendig hält.',
+  'Bartolo Longo ist nicht nur eine historische Persönlichkeit: Er ist ein Symbol für Glauben, Entschlossenheit und Wiedergeburt. Ein Erbe, das durch Orte, Werke und Zeugnisse weiterlebt.',
+];
+
+const cornoPortafortunaLongDescription = [
+  '🌶️ Das Glückshorn geht auf den pompejanischen Phallus zurück, ein Symbol für Macht und Fruchtbarkeit, das in der christlichen Epoche als heidnisches Zeichen verboten wurde.',
+  'Zu Beginn des 18. Jahrhunderts kamen einige neapolitanische Kunsthandwerker auf die Idee, seine Form zu verfeinern und ihn in ein Horn zu verwandeln. Das heutige Glückshorn wird noch immer nach einer Verarbeitung gefertigt, die jener des 18. Jahrhunderts entspricht.',
+  'Es wird vollständig von Hand hergestellt, aus Ton geformt und anschließend in Brennöfen bei 960 Grad gebrannt.',
+  'Sobald der Terrakotta-Scherben entstanden ist, wird er mit kristallisierter Keramik glasiert und erneut bei 1000 Grad gebrannt.',
+  'Auf diese Weise entstehen Glanz und besondere Details, die diese Stücke von anderen Arten der Verarbeitung unterscheiden. Unsere Hörner sind nicht nur Symbole für Macht, Fruchtbarkeit und Glück, sondern auch Einrichtungs- und Geschenkobjekte, die niemals banal wirken: besonders in Form und Farbe, echte Designstücke.',
+];
+
 export const germanProductContentByFilename: ProductContentTranslationByFilename = {
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Weihwasserbecken Heiligstes Herz Jesu',
@@ -15,11 +39,6 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Handgefertigtes Jesuskind in der Wiege',
     description:
       'Jesuskind auf einer verzierten Wiege, kunsthandwerklich gefertigt und auf Bestellung personalisierbar. Ein einzigartiges Stück, das mit textilen Handwerkstechniken gearbeitet wurde, die jedes Detail hervorheben.',
-  },
-  'bambin-gesù-in-culla-celeste.png': {
-    title: 'Jesuskind in blauer Wiege',
-    description:
-      'Jesuskind auf einer fein verzierten Wiege mit blauem Stoff, in Handarbeit gefertigt und auf Anfrage personalisierbar. Ein einzigartiges Objekt, das durch kunsthandwerkliche Verarbeitung in jedem Detail zur Geltung kommt.',
   },
   'busto-pulcinella-artigianale.png': {
     title: 'Handgefertigte Pulcinella-Büste',
@@ -65,11 +84,13 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Glückshorn',
     description:
       'Handgefertigtes Glückshorn nach neapolitanischer Tradition. Symbol für Schutz, Glück und Wohlstand, erhältlich in verschiedenen Varianten und Ausführungen.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-2.png': {
     title: 'Glückshorn 2',
     description:
       'Kunsthandwerklich gefertigtes Glückshorn nach neapolitanischer Tradition. Symbol für guten Zuspruch und Schutz, erhältlich in verschiedenen Varianten und Stilrichtungen.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna-sirena.jpeg': {
     title: 'Meerjungfrauenschwanz',
@@ -80,11 +101,6 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Tentakel',
     description:
       'Glückshorn mit originellem, von Meeresformen inspiriertem Design, handgearbeitet und von einem modernen, unverwechselbaren Stil geprägt. Ein symbolisches Objekt in zeitgenössischer Neuinterpretation.',
-  },
-  'crocifisso-artigianale.png': {
-    title: 'Handgefertigtes Kruzifix',
-    description:
-      'Kruzifix auf Holzsockel mit Messingfigur, kunsthandwerklich gefertigt. Ein klassisches religiöses Objekt, ideal für das Zuhause oder als bedeutungsvolles Geschenk.',
   },
   'cuori-di-gesù.png': {
     title: 'Herzen Jesu',
@@ -150,6 +166,7 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Bartolo-Longo-Bild',
     description:
       'Bildnis des Bartolo Longo, gefertigt aus hochwertigen Materialien und mit sorgfältigen Oberflächen. Ein symbolisches Objekt, das mit Frömmigkeit und der Geschichte Pompejis verbunden ist.',
+    longDescription: bartoloLongoLongDescription,
   },
   'quadretto-sacro.png': {
     title: 'Sakralbild',
@@ -215,16 +232,19 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Pulcinella-Statuette',
     description:
       "Kunsthandwerkliche Statue des Pulcinella, Symbol der Stadt Neapel und der Commedia dell'arte. Ein ikonisches, ironisches und traditionsreiches Objekt.",
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-2.png': {
     title: 'Pulcinella-Statuette 2',
     description:
       'Kunsthandwerkliche Figur des Pulcinella, Sinnbild der neapolitanischen Tradition. Ein ikonisches Objekt, das Ironie, Kultur und volkstümliche Identität zum Ausdruck bringt.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-pulcinella-3.png': {
     title: 'Pulcinella-Statuette 3',
     description:
       'Statuette des Pulcinella, gefertigt nach den alten Techniken des neapolitanischen Handwerks. Sorgfältig gearbeitet und gebrannt, um Formen und Details hervorzuheben, verkörpert sie authentisch den ironischen und volkstümlichen Geist der partenopeischen Tradition. Ein dekoratives Objekt mit starkem Charakter, ideal als kulturelles Symbol.',
+    longDescription: pulcinellaLongDescription,
   },
   'statuetta-san-francesco.png': {
     title: 'Statue des heiligen Franziskus',
@@ -240,6 +260,13 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Totò-Statue',
     description:
       'Statue des Totò, des Fürsten des Lachens und eines der größten Darsteller des italienischen Theaters und Kinos. Eine Hommage an die neapolitanische Kultur.',
+    longDescription: [
+      'Totò - Hommage an den Prinzen des Lachens',
+      'Antonio de Curtis, weltweit als Totò bekannt, ist eine der emblematischsten Figuren der italienischen Kultur des 20. Jahrhunderts. Geboren 1898 in Neapel, verkörperte Totò das Wesen der neapolitanischen Komik und erhob sie zu einer national wie international anerkannten Kunstform.',
+      'Seine Ausdruckskraft, geprägt von Mimik, Gestik und perfektem komischem Timing, schuf eine einzigartige Sprache, die Ironie, Sozialsatire und eine feine Melancholie miteinander verband. Hinter dem Lächeln und der Pointe verbarg sich oft eine klare Kritik an den Widersprüchen der Gesellschaft, wodurch seine Werke bis heute aktuell geblieben sind.',
+      'Diese künstlerische Darstellung würdigt seine Figur durch eine Ästhetik, die die markanten Züge seines Gesichts und seiner Persönlichkeit aufgreift. Die handwerkliche Ausführung, inspiriert von traditionellen neapolitanischen Techniken, verleiht dem Werk Tiefe und Charakter und macht es zu einer authentischen und respektvollen Hommage.',
+      'Jedes Element ist darauf ausgelegt, die Erinnerung an einen Künstler wachzurufen, der es verstand, Einfachheit in Genialität zu verwandeln. Totò ist nicht nur ein Symbol der Komik: Er ist ein kulturelles Erbe, ein Bezugspunkt, der in der kollektiven Vorstellung weiterlebt.',
+    ],
   },
   'statuetta-venere-in-bronzo.png': {
     title: 'Venus-Statuette aus Bronze',
@@ -260,11 +287,6 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Handgefertigter Kopf des San Gennaro',
     description:
       'Darstellung des Kopfes des San Gennaro, kunsthandwerklich mit großer Sorgfalt und Liebe zum Detail gefertigt. Ein symbolisches Objekt der neapolitanischen Tradition, ideal als dekoratives Element mit starker identitätsstiftender Bedeutung.',
-  },
-  'tondo-sacro-da-appoggio.png': {
-    title: 'Sakrales Tondo zum Aufstellen',
-    description:
-      'Dekoratives Objekt mit sakralem Motiv, sorgfältig ausgearbeitet und zum Aufstellen auf Flächen konzipiert. Ein elegantes und symbolisches Stück, ideal, um Räumen einen Hauch von Spiritualität und Raffinesse zu verleihen.',
   },
   'vaso-pompei-antica.png': {
     title: 'Vase Antikes Pompeji 1',

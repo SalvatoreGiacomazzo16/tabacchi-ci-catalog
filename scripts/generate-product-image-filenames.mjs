@@ -9,11 +9,17 @@ const outputFile = resolve(projectRoot, 'src', 'data', 'generatedProductImageFil
 
 const systemFileNames = new Set(['.DS_Store']);
 const validImageExtension = /\.(png|jpe?g|webp|gif|avif|svg)$/i;
+const excludedProductImageFilenames = new Set([
+  'bambin-gesù-in-culla-celeste.png',
+  'crocifisso-artigianale.png',
+  'tondo-sacro-da-appoggio.png',
+]);
 
 function isValidImageFile(entry) {
   return (
     entry.isFile() &&
     !systemFileNames.has(entry.name) &&
+    !excludedProductImageFilenames.has(entry.name) &&
     !entry.name.startsWith('._') &&
     validImageExtension.test(entry.name)
   );

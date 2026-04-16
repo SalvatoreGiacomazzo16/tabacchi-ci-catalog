@@ -1,4 +1,7 @@
-const catalogUrl = 'https://tabacchi-ci-catalog.vercel.app/it';
+import { Link } from 'react-router-dom';
+import { defaultLanguage } from '../app/config';
+
+const catalogPath = `/${defaultLanguage}`;
 const instagramUrl = 'https://www.instagram.com/tabacchici_pompei?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
 const facebookUrl = 'https://www.facebook.com/share/18UUykjepa/';
 
@@ -23,14 +26,12 @@ export function LinksPage() {
           </div>
 
           <div className="mt-8 flex flex-col gap-3">
-            <a
+            <Link
               className="inline-flex min-h-12 items-center justify-center rounded-full bg-brand-500 px-5 py-3 text-base font-semibold text-contrast shadow-[var(--shadow-card)] hover:bg-brand-700 hover:-translate-y-0.5"
-              href={catalogUrl}
-              rel="noreferrer"
-              target="_blank"
+              to={catalogPath}
             >
               Catalogo prodotti
-            </a>
+            </Link>
 
             <a
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-canvas-soft px-5 py-3 text-base font-semibold text-ink shadow-[var(--shadow-card)] hover:border-brand-muted hover:bg-brand-faint hover:text-brand-700 hover:-translate-y-0.5"

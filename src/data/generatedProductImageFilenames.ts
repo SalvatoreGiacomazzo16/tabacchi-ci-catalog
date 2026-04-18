@@ -8,6 +8,7 @@ export const productImageFilenames = [
   "busto-pulcinella-artigianale-2.png",
   "busto-pulcinella-artigianale.png",
   "busto-san-gennaro-artigianale.png",
+  "cartolina-di-chiesa.png",
   "civetta-in-bronzo.png",
   "composizione-di-corni.png",
   "corni-portafortuna-2.png",
@@ -30,6 +31,7 @@ export const productImageFilenames = [
   "piatto-pompei-antica-3.jpeg",
   "piatto-pompei-antica.png",
   "quadretto-di-bartolo-longo.png",
+  "quadretto-in-plexiglass-gesù.png",
   "quadretto-sacro-artigianale.png",
   "quadretto-sacro-in-legno.png",
   "quadretto-sacro.png",
@@ -57,4 +59,4 @@ export const productImageFilenames = [
   "vaso-pompei-antica.png",
 ] as const;
 
-export const productImageCount = 53;
+export const productImageCount = 55;

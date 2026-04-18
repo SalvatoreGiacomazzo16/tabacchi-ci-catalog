@@ -55,6 +55,11 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Statue représentant San Gennaro, réalisée selon les anciennes techniques de l’artisanat napolitain. Un objet de forte valeur symbolique et religieuse, soigné dans chaque détail.',
   },
+  'cartolina-di-chiesa.png': {
+    title: 'Carte postale religieuse - Sanctuaire de la Bienheureuse Vierge du Rosaire de Pompéi',
+    description:
+      'Carte postale évocatrice représentant le célèbre Sanctuaire de la Bienheureuse Vierge du Rosaire de Pompéi, l’un des lieux de culte les plus importants et les plus visités d’Italie. L’image met en valeur la majesté de la façade et la présence emblématique de la Vierge, symbole de foi et de protection. Enrichie d’éléments décoratifs et de détails rappelant la tradition dévotionnelle, cette carte postale représente non seulement un souvenir du territoire pompéien, mais aussi un petit objet chargé de sens spirituel. Idéale comme souvenir, attention religieuse ou signe de dévotion personnelle.',
+  },
   'civetta-in-bronzo.png': {
     title: 'Chouette en bronze',
     description:
@@ -95,12 +100,12 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
   'corno-portafortuna-sirena.jpeg': {
     title: 'Queue de Sirène',
     description:
-      'Corne porte-bonheur inspirée de la figure de la sirène, symbole de Naples. Une pièce artisanale qui unit tradition protectrice et identité locale.',
+      'Pièce artisanale inspirée de la figure de la sirène, symbole de Naples. Une création évocatrice qui unit identité locale, inspirations marines et soin du détail.',
   },
   'corno-portafortuna-tentacolo.png': {
     title: 'Tentacule',
     description:
-      'Corne au design original inspiré des formes marines, travaillée à la main et caractérisée par un style moderne et distinctif. Un objet symbolique revisité dans une clé contemporaine.',
+      'Pièce artisanale au design original inspiré des formes marines, travaillée à la main et marquée par un style moderne et distinctif. Une création symbolique qui évoque Naples dans une lecture contemporaine.',
   },
   'cuori-di-gesù.png': {
     title: 'Cœurs de Jésus',
@@ -167,6 +172,11 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Tableau représentant Bartolo Longo, réalisé avec des matériaux de qualité et des finitions soignées. Un objet symbolique lié à la dévotion et à l’histoire de Pompéi.',
     longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-in-plexiglass-gesù.png': {
+    title: 'Tableau sacré en plexiglas - Visage de Jésus',
+    description:
+      'Élégante représentation du visage de Jésus réalisée sur support en plexiglas, un matériau moderne qui sublime les couleurs et donne de la profondeur à l’image sacrée. L’œuvre représente le Christ avec la couronne d’épines, dans une expression intense et chargée de spiritualité, capable de transmettre recueillement et dévotion. Le design essentiel, avec base stable et structure transparente, rend ce tableau adapté aussi bien aux intérieurs domestiques qu’aux espaces de prière, en s’intégrant avec discrétion et raffinement dans tout contexte. Un objet qui unit tradition religieuse et style contemporain, parfait aussi comme idée de cadeau symbolique et significatif.',
   },
   'quadretto-sacro.png': {
     title: 'Tableau sacré',

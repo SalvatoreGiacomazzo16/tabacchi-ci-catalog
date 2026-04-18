@@ -55,6 +55,11 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Statue des San Gennaro, gefertigt nach alten Techniken des neapolitanischen Kunsthandwerks. Ein Objekt von starkem symbolischem und religiösem Wert, bis ins Detail sorgfältig ausgearbeitet.',
   },
+  'cartolina-di-chiesa.png': {
+    title: 'Religiöse Postkarte - Heiligtum der Seligen Jungfrau vom Rosenkranz von Pompeji',
+    description:
+      'Ausdrucksstarke Postkarte mit dem berühmten Heiligtum der Seligen Jungfrau vom Rosenkranz von Pompeji, einem der wichtigsten und meistbesuchten Wallfahrtsorte Italiens. Das Bild hebt die majestätische Fassade und die ikonische Präsenz der Jungfrau hervor, ein Symbol für Glauben und Schutz. Bereichert durch dekorative Elemente und Details, die an die Andachtstradition erinnern, ist diese Postkarte nicht nur eine Erinnerung an das Gebiet von Pompeji, sondern auch ein kleines Objekt mit spiritueller Bedeutung. Ideal als Souvenir, religiöse Aufmerksamkeit oder Zeichen persönlicher Andacht.',
+  },
   'civetta-in-bronzo.png': {
     title: 'Eule aus Bronze',
     description:
@@ -95,12 +100,12 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
   'corno-portafortuna-sirena.jpeg': {
     title: 'Meerjungfrauenschwanz',
     description:
-      'Von der Sirene, dem Symbol Neapels, inspiriertes Glückshorn. Ein kunsthandwerkliches Objekt, das Schutztradition und lokale Identität miteinander verbindet.',
+      'Handgefertigtes Objekt, inspiriert von der Sirene, dem Symbol Neapels. Eine ausdrucksstarke Kreation, die lokale Identität, maritime Anklänge und Liebe zum Detail verbindet.',
   },
   'corno-portafortuna-tentacolo.png': {
     title: 'Tentakel',
     description:
-      'Glückshorn mit originellem, von Meeresformen inspiriertem Design, handgearbeitet und von einem modernen, unverwechselbaren Stil geprägt. Ein symbolisches Objekt in zeitgenössischer Neuinterpretation.',
+      'Handgefertigtes Objekt mit originellem, von Meeresformen inspiriertem Design, handgearbeitet und von einem modernen, unverwechselbaren Stil geprägt. Eine symbolische Kreation, die Neapel zeitgemäß aufgreift.',
   },
   'cuori-di-gesù.png': {
     title: 'Herzen Jesu',
@@ -167,6 +172,11 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Bildnis des Bartolo Longo, gefertigt aus hochwertigen Materialien und mit sorgfältigen Oberflächen. Ein symbolisches Objekt, das mit Frömmigkeit und der Geschichte Pompejis verbunden ist.',
     longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-in-plexiglass-gesù.png': {
+    title: 'Sakralbild aus Plexiglas - Antlitz Jesu',
+    description:
+      'Elegante Darstellung des Antlitzes Jesu auf einem Plexiglasträger, einem modernen Material, das die Farben hervorhebt und dem sakralen Bild Tiefe verleiht. Das Werk zeigt Christus mit der Dornenkrone in einem intensiven und von Spiritualität geprägten Ausdruck, der Sammlung und Andacht vermittelt. Das klare Design mit stabilem Sockel und transparenter Struktur macht dieses Bild sowohl für Wohnräume als auch für Gebetsräume geeignet und lässt es sich dezent und stilvoll in jede Umgebung einfügen. Ein Objekt, das religiöse Tradition und zeitgenössischen Stil verbindet und sich auch ideal als symbolisches und bedeutungsvolles Geschenk eignet.',
   },
   'quadretto-sacro.png': {
     title: 'Sakralbild',

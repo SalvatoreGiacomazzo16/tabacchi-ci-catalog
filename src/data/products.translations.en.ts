@@ -55,6 +55,11 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Statue depicting San Gennaro, made according to ancient Neapolitan craftsmanship techniques. A piece of strong symbolic and religious value, finished with care in every detail.',
   },
+  'cartolina-di-chiesa.png': {
+    title: 'Religious Postcard - Shrine of Our Lady of the Rosary of Pompeii',
+    description:
+      'Evocative postcard depicting the famous Shrine of Our Lady of the Rosary of Pompeii, one of the most important and visited places of worship in Italy. The image highlights the majesty of the facade and the iconic presence of the Virgin, a symbol of faith and protection. Enriched with decorative elements and details that recall devotional tradition, this postcard represents not only a memory of the Pompeii area, but also a small object filled with spiritual meaning. Ideal as a souvenir, a religious gift, or a sign of personal devotion.',
+  },
   'civetta-in-bronzo.png': {
     title: 'Bronze Owl',
     description:
@@ -95,12 +100,12 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
   'corno-portafortuna-sirena.jpeg': {
     title: 'Mermaid Tail',
     description:
-      'Lucky horn inspired by the siren, a symbol of Naples. A handcrafted piece that unites protective tradition with local identity.',
+      'Handcrafted piece inspired by the siren, a symbol of Naples. An evocative creation that blends local identity, marine inspiration, and careful detailing.',
   },
   'corno-portafortuna-tentacolo.png': {
     title: 'Tentacle',
     description:
-      'Lucky horn with an original design inspired by marine forms, handmade and defined by a modern, distinctive style. A symbolic object reinterpreted in a contemporary way.',
+      'Handcrafted piece with an original design inspired by sea forms, made by hand and defined by a modern, distinctive style. A symbolic creation that echoes Naples in a contemporary key.',
   },
   'cuori-di-gesù.png': {
     title: 'Sacred Hearts of Jesus',
@@ -167,6 +172,11 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Small picture depicting Bartolo Longo, made with quality materials and refined finishes. A symbolic piece linked to devotion and to the history of Pompeii.',
     longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-in-plexiglass-gesù.png': {
+    title: 'Sacred Plexiglass Picture - Face of Jesus',
+    description:
+      'Elegant depiction of the face of Jesus created on a plexiglass support, a modern material that enhances the colors and adds depth to the sacred image. The piece portrays Christ with the crown of thorns, in an intense and deeply spiritual expression capable of conveying recollection and devotion. The essential design, with a stable base and transparent structure, makes this picture suitable both for domestic interiors and prayer spaces, blending discreetly and elegantly into any setting. An object that combines religious tradition and contemporary style, also perfect as a symbolic and meaningful gift idea.',
   },
   'quadretto-sacro.png': {
     title: 'Sacred Picture',

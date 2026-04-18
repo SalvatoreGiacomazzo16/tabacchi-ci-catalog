@@ -55,6 +55,11 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Statua raffigurante San Gennaro, realizzata secondo antiche tecniche di artigianato napoletano. Un oggetto dal forte valore simbolico e religioso, curato in ogni dettaglio.',
   },
+  'cartolina-di-chiesa.png': {
+    title: 'Cartolina Religiosa – Santuario della Beata Vergine del Rosario di Pompei',
+    description:
+      'Suggestiva cartolina raffigurante il celebre Santuario della Beata Vergine del Rosario di Pompei, uno dei luoghi di culto più importanti e visitati d’Italia. L’immagine valorizza la maestosità della facciata e l’iconica presenza della Vergine, simbolo di fede e protezione. Arricchita da elementi decorativi e dettagli che richiamano la tradizione devozionale, questa cartolina rappresenta non solo un ricordo del territorio pompeiano, ma anche un piccolo oggetto carico di significato spirituale. Ideale come souvenir, pensiero religioso o segno di devozione personale.',
+  },
   'civetta-in-bronzo.png': {
     title: 'Civetta in Bronzo',
     description:
@@ -95,12 +100,12 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
   'corno-portafortuna-sirena.jpeg': {
     title: 'Coda di Sirena',
     description:
-      'Corno portafortuna ispirato alla figura della sirena, simbolo di Napoli. Unione tra tradizione scaramantica e identità territoriale, realizzato artigianalmente.',
+      'Oggetto artigianale ispirato alla figura della sirena, simbolo di Napoli. Una creazione evocativa che unisce identità territoriale, suggestioni marine e cura dei dettagli.',
   },
   'corno-portafortuna-tentacolo.png': {
     title: 'Tentacolo',
     description:
-      'Corno dal design originale ispirato a forme marine, lavorato a mano e caratterizzato da uno stile moderno e distintivo. Un oggetto simbolico rivisitato in chiave contemporanea.',
+      'Oggetto artigianale dal design originale ispirato alle forme del mare, lavorato a mano e definito da uno stile moderno e distintivo. Una creazione simbolica che richiama Napoli in chiave contemporanea.',
   },
   'cuori-di-gesù.png': {
     title: 'Cuori di Gesù',
@@ -167,6 +172,11 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Quadretto raffigurante Bartolo Longo, realizzato con materiali di qualità e finiture curate. Un oggetto simbolico legato alla devozione e alla storia di Pompei.',
     longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-in-plexiglass-gesù.png': {
+    title: 'Quadretto Sacro in Plexiglass – Volto di Gesù',
+    description:
+      'Elegante rappresentazione del volto di Gesù realizzata su supporto in plexiglass, un materiale moderno che esalta i colori e dona profondità all’immagine sacra. L’opera raffigura Cristo con la corona di spine, in un’espressione intensa e carica di spiritualità, capace di trasmettere raccoglimento e devozione. Il design essenziale, con base stabile e struttura trasparente, rende questo quadretto adatto sia ad ambienti domestici che a spazi di preghiera, integrandosi con discrezione e raffinatezza in qualsiasi contesto. Un oggetto che unisce tradizione religiosa e stile contemporaneo, perfetto anche come idea regalo simbolica e significativa.',
   },
   'quadretto-sacro.png': {
     title: 'Quadretto Sacro',

@@ -55,6 +55,11 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Estatua que representa a San Gennaro, realizada según antiguas técnicas del artesanado napolitano. Un objeto de fuerte valor simbólico y religioso, cuidado en cada detalle.',
   },
+  'cartolina-di-chiesa.png': {
+    title: 'Postal religiosa - Santuario de la Beata Virgen del Rosario de Pompeya',
+    description:
+      'Sugestiva postal que representa el célebre Santuario de la Beata Virgen del Rosario de Pompeya, uno de los lugares de culto más importantes y visitados de Italia. La imagen resalta la majestuosidad de la fachada y la presencia icónica de la Virgen, símbolo de fe y protección. Enriquecida con elementos decorativos y detalles que evocan la tradición devocional, esta postal representa no solo un recuerdo del territorio pompeyano, sino también un pequeño objeto cargado de significado espiritual. Ideal como recuerdo, detalle religioso o signo de devoción personal.',
+  },
   'civetta-in-bronzo.png': {
     title: 'Búho de bronce',
     description:
@@ -95,12 +100,12 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
   'corno-portafortuna-sirena.jpeg': {
     title: 'Cola de Sirena',
     description:
-      'Cuerno de la suerte inspirado en la figura de la sirena, símbolo de Nápoles. Una pieza artesanal que une la tradición propiciatoria con la identidad del territorio.',
+      'Objeto artesanal inspirado en la figura de la sirena, símbolo de Nápoles. Una creación evocadora que une identidad local, sugerencias marinas y cuidado por los detalles.',
   },
   'corno-portafortuna-tentacolo.png': {
     title: 'Tentáculo',
     description:
-      'Cuerno de diseño original inspirado en formas marinas, trabajado a mano y caracterizado por un estilo moderno y distintivo. Un objeto simbólico reinterpretado en clave contemporánea.',
+      'Objeto artesanal de diseño original inspirado en las formas del mar, trabajado a mano y definido por un estilo moderno y distintivo. Una creación simbólica que evoca Nápoles en clave contemporánea.',
   },
   'cuori-di-gesù.png': {
     title: 'Corazones de Jesús',
@@ -167,6 +172,11 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Cuadro que representa a Bartolo Longo, realizado con materiales de calidad y acabados cuidados. Un objeto simbólico ligado a la devoción y a la historia de Pompeya.',
     longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-in-plexiglass-gesù.png': {
+    title: 'Cuadro sagrado en plexiglás - Rostro de Jesús',
+    description:
+      'Elegante representación del rostro de Jesús realizada sobre soporte de plexiglás, un material moderno que realza los colores y aporta profundidad a la imagen sagrada. La obra representa a Cristo con la corona de espinas, en una expresión intensa y cargada de espiritualidad, capaz de transmitir recogimiento y devoción. El diseño esencial, con base estable y estructura transparente, hace que este cuadro sea adecuado tanto para ambientes domésticos como para espacios de oración, integrándose con discreción y refinamiento en cualquier contexto. Un objeto que une tradición religiosa y estilo contemporáneo, perfecto también como idea de regalo simbólica y significativa.',
   },
   'quadretto-sacro.png': {
     title: 'Cuadro sagrado',

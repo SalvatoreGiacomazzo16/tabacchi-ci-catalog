@@ -85,6 +85,24 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Handcrafted lucky horns inspired by Pulcinella and defined by distinctive details. They unite protective tradition and Neapolitan culture, making them ideal as symbolic and decorative pieces.',
   },
+  'corno-a-spirale-con-maschera.png': {
+    title: 'Spiral Horn with Mask',
+    description:
+      'This model stands out for its enveloping shape, in which the horn develops into an elegant and modern spiral. The mask at the base adds expressive depth, creating a contrast between movement and stillness. Handmade, every detail tells the story of the meeting between stylistic innovation and Neapolitan artisanal tradition.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-con-maschera.png': {
+    title: 'Horn with Mask',
+    description:
+      'A handcrafted sculpture in Neapolitan terracotta that combines the classic lucky horn with the traditional local mask. The horn’s slender line recalls protection against the evil eye, while the finely hand-modeled mask represents the identity and face of Neapolitan culture. Each piece is unique, created using ancient techniques and finished with glossy glazes that enhance its depth and character.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-intrecciato-cuore-con-maschera.png': {
+    title: 'Heart-Shaped Intertwined Horn with Mask',
+    description:
+      'A symbolic sculpture in which the horn intertwines until it forms a heart, an emblem of love and protection. The mask placed at the base completes the work, giving a face to tradition. Ideal as a decorative object or a meaningful gift, it represents a perfect union of emotion and culture.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
   'corno-portafortuna.png': {
     title: 'Lucky Horn',
     description:
@@ -106,6 +124,12 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Tentacle',
     description:
       'Handcrafted piece with an original design inspired by sea forms, made by hand and defined by a modern, distinctive style. A symbolic creation that echoes Naples in a contemporary key.',
+  },
+  'corno-prismatico-con-maschera.png': {
+    title: 'Prismatic Horn with Mask',
+    description:
+      'A contemporary reinterpretation of the classic horn, characterized by sharper and more structured lines. The prismatic design gives it a geometric and distinctive look, while the mask preserves its connection to Neapolitan culture. An object that blends modern aesthetics with historical roots.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'cuori-di-gesù.png': {
     title: 'Sacred Hearts of Jesus',
@@ -146,6 +170,16 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Handcrafted Hands 2',
     description:
       'Decorative elements depicting hands in symbolic poses, handmade according to Neapolitan tradition. Pieces with strong visual and cultural impact.',
+  },
+  'mani-del-folklore.png': {
+    title: 'Folklore Hands',
+    description:
+      'Artistic reproductions of the gestures typical of Neapolitan culture, symbols of immediate communication and cultural identity. Made of terracotta and hand-glazed, these hands tell the silent yet powerful language of the local tradition. Each gesture holds deep meanings, blending irony, superstition, and everyday life.',
+  },
+  'maschere-veneziane-varie-dimensioni.png': {
+    title: 'Venetian Masks (Various Sizes)',
+    description:
+      'Decorative masks handcrafted and inspired by the Venetian tradition, reinterpreted through the aesthetic language of Neapolitan terracotta. Available in various sizes, they retain a strong decorative and cultural value, perfect for elegant interiors or artistic collections.',
   },
   'natività-artigianale.png': {
     title: 'Handcrafted Nativity',
@@ -202,6 +236,11 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Rosary with Medallion and Cross',
     description:
       'Handcrafted rosary made with care in both finishing and the choice of details. An essential devotional object designed to accompany moments of prayer.',
+  },
+  'san-gennaro-varie-dimensioni.png': {
+    title: 'Saint Januarius (Various Sizes)',
+    description:
+      'A handcrafted representation of the Patron Saint of Naples, symbol of faith and protection. Made of terracotta and finished by hand, each piece conveys spirituality and a sense of belonging. Available in various sizes, it is an object that combines devotion and artistic tradition.',
   },
   'statuetta-arcangelo-gabriele.png': {
     title: 'Archangel Gabriel Statue',
@@ -298,6 +337,11 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Representation of the head of San Gennaro, crafted by hand with careful attention to detail. A symbolic piece of Neapolitan tradition, ideal as a decorative object with strong local identity.',
   },
+  'tricorno-intrecciato-con-tre-maschere.png': {
+    title: 'Intertwined Tricorn with Three Masks',
+    description:
+      'A symbolic piece that intertwines multiple horns into a single structure, creating a dynamic and harmonious movement. The presence of the mask at the base strengthens the connection with Neapolitan theatrical and popular tradition. The interwoven design represents multiplied protection and continuity, making each piece not only decorative but also rich in meaning.',
+  },
   'vaso-pompei-antica.png': {
     title: 'Ancient Pompeii Vase 1',
     description:
@@ -312,5 +356,15 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Ancient Pompeii Vase 3',
     description:
       'Decorative vase inspired by the aesthetics of ancient Pompeii, distinguished by artistic details and refined finishes. A piece that recalls classical tradition, perfect for enhancing interiors with style and elegance.',
+  },
+  'vesuvio-1-con-maschera.png': {
+    title: 'Vesuvius 1 with Mask',
+    description:
+      'A sculpture inspired by the profile of Mount Vesuvius, reinterpreted in an artistic key through the inclusion of the traditional mask. The contrast between the natural shape of the volcano and the human element creates a unique object, symbolizing the strength and identity of Naples.',
+  },
+  'vesuvio-2-con-maschera.png': {
+    title: 'Vesuvius 2 with Mask',
+    description:
+      'A variation of the stylized Vesuvius, characterized by a softer and more dynamic shape. The integrated mask completes the piece, adding expressiveness and depth. An object that brings together energy, history, and tradition in a harmonious composition.',
   },
 };

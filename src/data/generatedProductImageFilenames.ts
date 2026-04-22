@@ -28,8 +28,6 @@ export const productImageFilenames = [
   "gatto-in-bronzo.png",
   "guerrieri-in-bronzo-2.png",
   "guerrieri-in-bronzo.png",
-  "vesuvio-1-con-maschera.png",
-  "vesuvio-2-con-maschera.png",
   "mani-artigianali-2.png",
   "mani-artigianali.png",
   "mani-del-folklore.png",
@@ -67,6 +65,8 @@ export const productImageFilenames = [
   "vaso-pompei-antica-2.jpeg",
   "vaso-pompei-antica-3.jpeg",
   "vaso-pompei-antica.png",
+  "vesuvio-1-con-maschera.png",
+  "vesuvio-2-con-maschera.png",
 ] as const;
 
-export const productImageCount = 66;
+export const productImageCount = 65;

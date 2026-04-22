@@ -3,16 +3,6 @@ import type { LanguageCode } from '../../types/app';
 import type { Product, ProductTranslation } from '../../types/product';
 import { ProductMedia } from './ProductMedia';
 
-const productIdsWithInfo = new Set([
-  'quadretto-di-bartolo-longo-png',
-  'statuetta-pulcinella-png',
-  'statuetta-pulcinella-2-png',
-  'statuetta-pulcinella-3-png',
-  'statuetta-toto-artigianale-png',
-  'corno-portafortuna-png',
-  'corno-portafortuna-2-png',
-]);
-
 const modalImageScaleByProductId: Partial<Record<Product['id'], string>> = {
   'quadretto-di-bartolo-longo-png': 'scale-[2]',
   'statuetta-pulcinella-png': 'scale-[2]',
@@ -136,7 +126,7 @@ function ProductInfoModal({
 export function ProductCard({ product, selectedLanguage }: ProductCardProps) {
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const content = product.translations[selectedLanguage];
-  const showInfoButton = productIdsWithInfo.has(product.id);
+  const showInfoButton = Boolean(content.longDescription?.length);
   const modalId = `product-info-modal-${product.id}`;
 
   return (

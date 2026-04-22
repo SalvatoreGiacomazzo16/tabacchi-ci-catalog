@@ -85,6 +85,24 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Von der Figur des Pulcinella inspirierte Glückshörner, kunsthandwerklich gefertigt und durch markante Details gekennzeichnet. Sie verbinden Schutztradition und neapolitanische Kultur und eignen sich perfekt als symbolische und dekorative Objekte.',
   },
+  'corno-a-spirale-con-maschera.png': {
+    title: 'Spiralförmiges Horn mit Maske',
+    description:
+      'Dieses Modell zeichnet sich durch seine umhüllende Form aus, bei der sich das Horn zu einer eleganten und modernen Spirale entwickelt. Die Maske an der Basis verleiht dem Stück expressive Tiefe und schafft einen Kontrast zwischen Bewegung und Ruhe. In Handarbeit gefertigt, erzählt jedes Detail von der Begegnung zwischen stilistischer Innovation und neapolitanischer Handwerkstradition.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-con-maschera.png': {
+    title: 'Horn mit Maske',
+    description:
+      'Handgefertigte Skulptur aus neapolitanischer Terrakotta, die das klassische Glückshorn mit der traditionellen lokalen Maske verbindet. Die schlanke Linie des Horns erinnert an den Schutz vor dem bösen Blick, während die fein von Hand modellierte Maske die Identität und das Gesicht der neapolitanischen Kultur verkörpert. Jedes Stück ist ein Unikat, nach alten Techniken gefertigt und mit glänzenden Glasuren vollendet, die Tiefe und Charakter hervorheben.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-intrecciato-cuore-con-maschera.png': {
+    title: 'Herzförmig verflochtenes Horn mit Maske',
+    description:
+      'Symbolische Skulptur, in der sich das Horn zu einem Herzen verflicht – einem Sinnbild für Liebe und Schutz. Die an der Basis platzierte Maske vervollständigt das Werk und verleiht der Tradition ein Gesicht. Ideal als Dekorationsobjekt oder bedeutungsvolles Geschenk, verkörpert es die perfekte Verbindung von Gefühl und Kultur.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
   'corno-portafortuna.png': {
     title: 'Glückshorn',
     description:
@@ -106,6 +124,12 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Tentakel',
     description:
       'Handgefertigtes Objekt mit originellem, von Meeresformen inspiriertem Design, handgearbeitet und von einem modernen, unverwechselbaren Stil geprägt. Eine symbolische Kreation, die Neapel zeitgemäß aufgreift.',
+  },
+  'corno-prismatico-con-maschera.png': {
+    title: 'Prismatisches Horn mit Maske',
+    description:
+      'Eine zeitgenössische Neuinterpretation des klassischen Horns, geprägt von klareren und strukturierteren Linien. Das prismatische Design verleiht ihm eine geometrische und markante Erscheinung, während die Maske die Verbindung zur neapolitanischen Kultur bewahrt. Ein Objekt, das moderne Ästhetik mit historischen Wurzeln vereint.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'cuori-di-gesù.png': {
     title: 'Herzen Jesu',
@@ -146,6 +170,16 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Handgefertigte Hände 2',
     description:
       'Dekorative Elemente mit Händen in symbolischen Haltungen, nach neapolitanischer Tradition von Hand gefertigt. Objekte mit starker visueller und kultureller Wirkung.',
+  },
+  'mani-del-folklore.png': {
+    title: 'Folklore-Hände',
+    description:
+      'Künstlerische Nachbildungen typischer neapolitanischer Gesten, Sinnbilder unmittelbarer Kommunikation und kultureller Identität. Aus Terrakotta gefertigt und von Hand glasiert, erzählen diese Hände die stille, aber kraftvolle Sprache der lokalen Tradition. Jede Geste trägt tiefe Bedeutungen in sich – zwischen Ironie, Aberglauben und Alltag.',
+  },
+  'maschere-veneziane-varie-dimensioni.png': {
+    title: 'Venezianische Masken (verschiedene Größen)',
+    description:
+      'Dekorative Masken in handwerklicher Ausführung, inspiriert von der venezianischen Tradition und neu interpretiert durch die Ästhetik neapolitanischer Terrakotta. In verschiedenen Größen erhältlich, bewahren sie einen starken dekorativen und kulturellen Wert und eignen sich perfekt für elegante Räume oder kunstvolle Sammlungen.',
   },
   'natività-artigianale.png': {
     title: 'Handgefertigte Krippenszene',
@@ -202,6 +236,11 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Rosenkranz mit Medaille und Kreuz',
     description:
       'Handgefertigter Rosenkranz mit großer Sorgfalt bei Verarbeitung und Detailauswahl. Ein essentielles Andachtsobjekt, das Momente des Gebets begleiten soll.',
+  },
+  'san-gennaro-varie-dimensioni.png': {
+    title: 'San Gennaro (verschiedene Größen)',
+    description:
+      'Handwerkliche Darstellung des Schutzpatrons von Neapel, Symbol für Glauben und Schutz. Aus Terrakotta gefertigt und von Hand vollendet, vermittelt jedes Stück Spiritualität und Zugehörigkeit. In verschiedenen Größen erhältlich, vereint dieses Objekt Andacht und künstlerische Tradition.',
   },
   'statuetta-arcangelo-gabriele.png': {
     title: 'Statue des Erzengels Gabriel',
@@ -298,6 +337,11 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Darstellung des Kopfes des San Gennaro, kunsthandwerklich mit großer Sorgfalt und Liebe zum Detail gefertigt. Ein symbolisches Objekt der neapolitanischen Tradition, ideal als dekoratives Element mit starker identitätsstiftender Bedeutung.',
   },
+  'tricorno-intrecciato-con-tre-maschere.png': {
+    title: 'Verflochtenes Tricorn mit drei Masken',
+    description:
+      'Symbolisches Werk, das mehrere Hörner zu einer einzigen Struktur verflicht und so eine dynamische und harmonische Bewegung erzeugt. Die Maske an der Basis verstärkt die Verbindung zur neapolitanischen Theater- und Volkstradition. Das Geflecht steht für vervielfachten Schutz und Kontinuität und macht jedes Stück nicht nur dekorativ, sondern auch bedeutungsvoll.',
+  },
   'vaso-pompei-antica.png': {
     title: 'Vase Antikes Pompeji 1',
     description:
@@ -312,5 +356,15 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     title: 'Vase Antikes Pompeji 3',
     description:
       'Dekorative Vase, inspiriert von der Ästhetik des antiken Pompeji und geprägt von künstlerischen Details sowie sorgfältigen Oberflächen. Ein Objekt, das an die klassische Tradition erinnert und Räume mit Stil und Eleganz bereichert.',
+  },
+  'vesuvio-1-con-maschera.png': {
+    title: 'Vesuv 1 mit Maske',
+    description:
+      'Skulptur, inspiriert vom Profil des Vesuvs und künstlerisch neu interpretiert durch die Einbindung der traditionellen Maske. Der Kontrast zwischen der natürlichen Form des Vulkans und dem menschlichen Element schafft ein einzigartiges Objekt, das die Stärke und Identität Neapels symbolisiert.',
+  },
+  'vesuvio-2-con-maschera.png': {
+    title: 'Vesuv 2 mit Maske',
+    description:
+      'Variante des stilisierten Vesuvs, gekennzeichnet durch eine weichere und dynamischere Form. Die integrierte Maske vervollständigt das Werk und verleiht ihm Ausdruckskraft und Tiefe. Ein Objekt, das Energie, Geschichte und Tradition in einer harmonischen Komposition vereint.',
   },
 };

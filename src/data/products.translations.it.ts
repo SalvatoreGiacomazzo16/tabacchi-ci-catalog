@@ -89,16 +89,19 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Corno a Spirale con Maschera',
     description:
       'Questo modello si distingue per la sua forma avvolgente, dove il corno si sviluppa in una spirale elegante e moderna. La maschera alla base aggiunge profondità espressiva, creando un contrasto tra movimento e staticità. Realizzato a mano, ogni dettaglio racconta l’incontro tra innovazione stilistica e tradizione artigianale napoletana.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-con-maschera.png': {
     title: 'Corno con Maschera',
     description:
       'Scultura artigianale in cotto napoletano che unisce il classico corno portafortuna alla maschera tradizionale partenopea. La linea slanciata del corno richiama la protezione contro il malocchio, mentre la maschera, finemente modellata a mano, rappresenta l’identità e il volto della cultura napoletana. Ogni pezzo è unico, realizzato secondo tecniche antiche e rifinito con smalti lucidi che ne esaltano profondità e carattere.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-intrecciato-cuore-con-maschera.png': {
     title: 'Corno Intrecciato Cuore con Maschera',
     description:
       'Scultura simbolica in cui il corno si intreccia fino a formare un cuore, emblema di amore e protezione. La maschera posta alla base completa l’opera, donando un volto alla tradizione. Ideale come oggetto decorativo o regalo significativo, rappresenta un connubio perfetto tra sentimento e cultura.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'corno-portafortuna.png': {
     title: 'Corno Portafortuna',
@@ -126,6 +129,7 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Corno Prismatico con Maschera',
     description:
       'Una reinterpretazione contemporanea del corno classico, caratterizzata da linee più decise e strutturate. Il design prismatico conferisce un aspetto geometrico e distintivo, mentre la maschera mantiene il legame con la cultura partenopea. Un oggetto che fonde estetica moderna e radici storiche.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'cuori-di-gesù.png': {
     title: 'Cuori di Gesù',

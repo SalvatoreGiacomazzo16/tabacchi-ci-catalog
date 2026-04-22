@@ -85,6 +85,24 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Cornes porte-bonheur inspirées de la figure de Pulcinella, réalisées artisanalement et marquées par des détails distinctifs. Elles unissent tradition protectrice et culture napolitaine, parfaites comme objets symboliques et décoratifs.',
   },
+  'corno-a-spirale-con-maschera.png': {
+    title: 'Corne en spirale avec masque',
+    description:
+      'Ce modèle se distingue par sa forme enveloppante, dans laquelle la corne se développe en une spirale élégante et moderne. Le masque à la base ajoute une profondeur expressive, créant un contraste entre mouvement et immobilité. Réalisé à la main, chaque détail raconte la rencontre entre innovation stylistique et tradition artisanale napolitaine.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-con-maschera.png': {
+    title: 'Corne avec masque',
+    description:
+      'Sculpture artisanale en terre cuite napolitaine qui unit la corne porte-bonheur classique au masque traditionnel local. La ligne élancée de la corne évoque la protection contre le mauvais œil, tandis que le masque, finement modelé à la main, représente l’identité et le visage de la culture napolitaine. Chaque pièce est unique, réalisée selon des techniques anciennes et finie avec des émaux brillants qui en exaltent la profondeur et le caractère.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-intrecciato-cuore-con-maschera.png': {
+    title: 'Corne entrelacée en cœur avec masque',
+    description:
+      'Sculpture symbolique dans laquelle la corne s’entrelace jusqu’à former un cœur, emblème d’amour et de protection. Le masque placé à la base complète l’œuvre en donnant un visage à la tradition. Idéale comme objet décoratif ou cadeau significatif, elle représente une union parfaite entre sentiment et culture.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
   'corno-portafortuna.png': {
     title: 'Corne porte-bonheur',
     description:
@@ -106,6 +124,12 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Tentacule',
     description:
       'Pièce artisanale au design original inspiré des formes marines, travaillée à la main et marquée par un style moderne et distinctif. Une création symbolique qui évoque Naples dans une lecture contemporaine.',
+  },
+  'corno-prismatico-con-maschera.png': {
+    title: 'Corne prismatique avec masque',
+    description:
+      'Réinterprétation contemporaine de la corne classique, caractérisée par des lignes plus nettes et plus structurées. Le design prismatique lui confère un aspect géométrique et distinctif, tandis que le masque maintient le lien avec la culture napolitaine. Un objet qui fusionne esthétique moderne et racines historiques.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'cuori-di-gesù.png': {
     title: 'Cœurs de Jésus',
@@ -146,6 +170,16 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Mains artisanales 2',
     description:
       'Éléments décoratifs représentant des mains dans des poses symboliques, réalisés à la main selon la tradition napolitaine. Des objets au fort impact visuel et culturel.',
+  },
+  'mani-del-folklore.png': {
+    title: 'Mains du folklore',
+    description:
+      'Reproductions artistiques des gestuelles typiques napolitaines, symboles d’une communication immédiate et d’une identité culturelle forte. Réalisées en terre cuite et émaillées à la main, ces mains racontent le langage silencieux mais puissant de la tradition locale. Chaque geste renferme des significations profondes, entre ironie, superstition et quotidien.',
+  },
+  'maschere-veneziane-varie-dimensioni.png': {
+    title: 'Masques vénitiens (différentes dimensions)',
+    description:
+      'Masques décoratifs réalisés artisanalement, inspirés de la tradition vénitienne mais réinterprétés à travers l’esthétique de la terre cuite napolitaine. Disponibles en différentes dimensions, ils conservent une forte valeur décorative et culturelle, parfaits pour des intérieurs élégants ou des collections artistiques.',
   },
   'natività-artigianale.png': {
     title: 'Nativité artisanale',
@@ -202,6 +236,11 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Rosaire avec médaille et croix',
     description:
       'Rosaire réalisé à la main avec soin dans les finitions et dans le choix des détails. Un objet de dévotion essentiel, pensé pour accompagner les moments de prière.',
+  },
+  'san-gennaro-varie-dimensioni.png': {
+    title: 'Saint Janvier (différentes dimensions)',
+    description:
+      'Représentation artisanale du saint patron de Naples, symbole de foi et de protection. Réalisé en terre cuite et fini à la main, chaque exemplaire transmet spiritualité et sentiment d’appartenance. Disponible en différentes dimensions, c’est un objet qui unit dévotion et tradition artistique.',
   },
   'statuetta-arcangelo-gabriele.png': {
     title: "Statue de l'Archange Gabriel",
@@ -298,6 +337,11 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Représentation de la tête de San Gennaro réalisée avec un travail artisanal et une grande attention aux détails. Un objet symbolique de la tradition napolitaine, idéal comme élément décoratif à forte valeur identitaire.',
   },
+  'tricorno-intrecciato-con-tre-maschere.png': {
+    title: 'Tricorne entrelacé avec trois masques',
+    description:
+      'Œuvre symbolique qui entrelace plusieurs cornes en une seule structure, créant un mouvement dynamique et harmonieux. La présence du masque à la base renforce le lien avec la tradition théâtrale et populaire napolitaine. Le jeu des entrelacs représente une protection multipliée et la continuité, faisant de chaque pièce un objet non seulement décoratif mais aussi chargé de sens.',
+  },
   'vaso-pompei-antica.png': {
     title: 'Vase Pompéi Antique 1',
     description:
@@ -312,5 +356,15 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     title: 'Vase Pompéi Antique 3',
     description:
       'Vase décoratif inspiré de l’esthétique de l’antique Pompéi, caractérisé par des détails artistiques et des finitions raffinées. Un objet qui évoque la tradition classique, parfait pour valoriser les intérieurs avec style et élégance.',
+  },
+  'vesuvio-1-con-maschera.png': {
+    title: 'Vésuve 1 avec masque',
+    description:
+      'Sculpture inspirée du profil du Vésuve, réinterprétée dans une clé artistique avec l’insertion du masque traditionnel. Le contraste entre la forme naturelle du volcan et l’élément humain crée un objet unique, symbole de la force et de l’identité napolitaines.',
+  },
+  'vesuvio-2-con-maschera.png': {
+    title: 'Vésuve 2 avec masque',
+    description:
+      'Variante du Vésuve stylisé, caractérisée par une forme plus douce et plus dynamique. Le masque intégré complète l’œuvre en lui donnant expressivité et profondeur. Un objet qui réunit énergie, histoire et tradition dans une composition harmonieuse.',
   },
 };

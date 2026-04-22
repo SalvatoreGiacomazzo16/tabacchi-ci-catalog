@@ -85,6 +85,24 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Cuernos de la suerte inspirados en la figura de Pulcinella, realizados artesanalmente y caracterizados por detalles distintivos. Unen la tradición propiciatoria y la cultura napolitana, perfectos como objetos simbólicos y decorativos.',
   },
+  'corno-a-spirale-con-maschera.png': {
+    title: 'Cuerno en espiral con máscara',
+    description:
+      'Este modelo se distingue por su forma envolvente, en la que el cuerno se desarrolla en una espiral elegante y moderna. La máscara en la base aporta profundidad expresiva, creando un contraste entre movimiento y quietud. Hecho a mano, cada detalle cuenta el encuentro entre innovación estilística y tradición artesanal napolitana.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-con-maschera.png': {
+    title: 'Cuerno con máscara',
+    description:
+      'Escultura artesanal en barro cocido napolitano que une el clásico cuerno de la suerte con la máscara tradicional local. La línea esbelta del cuerno evoca la protección contra el mal de ojo, mientras que la máscara, finamente modelada a mano, representa la identidad y el rostro de la cultura napolitana. Cada pieza es única, realizada según técnicas antiguas y acabada con esmaltes brillantes que realzan su profundidad y carácter.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'corno-intrecciato-cuore-con-maschera.png': {
+    title: 'Cuerno entrelazado en forma de corazón con máscara',
+    description:
+      'Escultura simbólica en la que el cuerno se entrelaza hasta formar un corazón, emblema de amor y protección. La máscara colocada en la base completa la obra, dando un rostro a la tradición. Ideal como objeto decorativo o regalo significativo, representa una unión perfecta entre sentimiento y cultura.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
   'corno-portafortuna.png': {
     title: 'Cuerno de la suerte',
     description:
@@ -106,6 +124,12 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Tentáculo',
     description:
       'Objeto artesanal de diseño original inspirado en las formas del mar, trabajado a mano y definido por un estilo moderno y distintivo. Una creación simbólica que evoca Nápoles en clave contemporánea.',
+  },
+  'corno-prismatico-con-maschera.png': {
+    title: 'Cuerno prismático con máscara',
+    description:
+      'Una reinterpretación contemporánea del cuerno clásico, caracterizada por líneas más definidas y estructuradas. El diseño prismático le confiere un aspecto geométrico y distintivo, mientras que la máscara mantiene el vínculo con la cultura napolitana. Un objeto que fusiona estética moderna y raíces históricas.',
+    longDescription: cornoPortafortunaLongDescription,
   },
   'cuori-di-gesù.png': {
     title: 'Corazones de Jesús',
@@ -146,6 +170,16 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Manos artesanales 2',
     description:
       'Elementos decorativos que representan manos en posturas simbólicas, realizados a mano según la tradición napolitana. Objetos de fuerte impacto visual y cultural.',
+  },
+  'mani-del-folklore.png': {
+    title: 'Manos del folclore',
+    description:
+      'Reproducciones artísticas de los gestos típicos napolitanos, símbolo de comunicación inmediata e identidad cultural. Realizadas en barro cocido y esmaltadas a mano, estas manos cuentan el lenguaje silencioso pero poderoso de la tradición local. Cada gesto encierra significados profundos, entre ironía, superstición y vida cotidiana.',
+  },
+  'maschere-veneziane-varie-dimensioni.png': {
+    title: 'Máscaras venecianas (varios tamaños)',
+    description:
+      'Máscaras decorativas elaboradas artesanalmente, inspiradas en la tradición veneciana pero reinterpretadas a través de la estética del barro cocido napolitano. Disponibles en varios tamaños, conservan un fuerte valor decorativo y cultural, perfectas para ambientes elegantes o colecciones artísticas.',
   },
   'natività-artigianale.png': {
     title: 'Natividad artesanal',
@@ -202,6 +236,11 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Rosario con medalla y cruz',
     description:
       'Rosario hecho a mano con atención a los acabados y a la elección de los detalles. Un objeto de devoción esencial, pensado para acompañar los momentos de oración.',
+  },
+  'san-gennaro-varie-dimensioni.png': {
+    title: 'San Genaro (varios tamaños)',
+    description:
+      'Representación artesanal del Santo Patrón de Nápoles, símbolo de fe y protección. Realizado en barro cocido y acabado a mano, cada pieza transmite espiritualidad y sentido de pertenencia. Disponible en varios tamaños, es un objeto que une devoción y tradición artística.',
   },
   'statuetta-arcangelo-gabriele.png': {
     title: 'Estatua del Arcángel Gabriel',
@@ -298,6 +337,11 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Representación de la cabeza de San Gennaro realizada con trabajo artesanal y atención a los detalles. Un objeto simbólico de la tradición napolitana, ideal como elemento decorativo de fuerte valor identitario.',
   },
+  'tricorno-intrecciato-con-tre-maschere.png': {
+    title: 'Tricornio entrelazado con tres máscaras',
+    description:
+      'Obra simbólica que entrelaza varios cuernos en una única estructura, creando un movimiento dinámico y armonioso. La presencia de la máscara en la base refuerza el vínculo con la tradición teatral y popular napolitana. El juego de entrelazados representa protección multiplicada y continuidad, haciendo que cada pieza no solo sea decorativa, sino también cargada de significado.',
+  },
   'vaso-pompei-antica.png': {
     title: 'Jarrón Pompeya Antigua 1',
     description:
@@ -312,5 +356,15 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Jarrón Pompeya Antigua 3',
     description:
       'Jarrón decorativo inspirado en la estética de la antigua Pompeya, caracterizado por detalles artísticos y acabados refinados. Un objeto que evoca la tradición clásica, perfecto para realzar los ambientes con estilo y elegancia.',
+  },
+  'vesuvio-1-con-maschera.png': {
+    title: 'Vesubio 1 con máscara',
+    description:
+      'Escultura inspirada en el perfil del Vesubio, reinterpretada en clave artística mediante la incorporación de la máscara tradicional. El contraste entre la forma natural del volcán y el elemento humano crea un objeto único, símbolo de la fuerza y la identidad napolitanas.',
+  },
+  'vesuvio-2-con-maschera.png': {
+    title: 'Vesubio 2 con máscara',
+    description:
+      'Variante del Vesubio estilizado, caracterizada por una forma más suave y dinámica. La máscara integrada completa la obra, aportándole expresividad y profundidad. Un objeto que reúne energía, historia y tradición en una composición armoniosa.',
   },
 };

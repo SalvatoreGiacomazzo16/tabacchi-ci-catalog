@@ -8,7 +8,7 @@ export type ProductContentTranslation = {
   longDescription?: string[];
 };
 
-export type ProductContentTranslationByFilename = Record<
+export type ProductContentTranslationByFilename = Partial<Record<
   ProductImageFilename,
   ProductContentTranslation
->;
+>>;

@@ -85,6 +85,21 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Corni portafortuna ispirati alla figura di Pulcinella, realizzati artigianalmente e caratterizzati da dettagli distintivi. Unione tra tradizione scaramantica e cultura napoletana, perfetti come oggetti simbolici e decorativi.',
   },
+  'corno-a-spirale-con-maschera.png': {
+    title: 'Corno a Spirale con Maschera',
+    description:
+      'Questo modello si distingue per la sua forma avvolgente, dove il corno si sviluppa in una spirale elegante e moderna. La maschera alla base aggiunge profondità espressiva, creando un contrasto tra movimento e staticità. Realizzato a mano, ogni dettaglio racconta l’incontro tra innovazione stilistica e tradizione artigianale napoletana.',
+  },
+  'corno-con-maschera.png': {
+    title: 'Corno con Maschera',
+    description:
+      'Scultura artigianale in cotto napoletano che unisce il classico corno portafortuna alla maschera tradizionale partenopea. La linea slanciata del corno richiama la protezione contro il malocchio, mentre la maschera, finemente modellata a mano, rappresenta l’identità e il volto della cultura napoletana. Ogni pezzo è unico, realizzato secondo tecniche antiche e rifinito con smalti lucidi che ne esaltano profondità e carattere.',
+  },
+  'corno-intrecciato-cuore-con-maschera.png': {
+    title: 'Corno Intrecciato Cuore con Maschera',
+    description:
+      'Scultura simbolica in cui il corno si intreccia fino a formare un cuore, emblema di amore e protezione. La maschera posta alla base completa l’opera, donando un volto alla tradizione. Ideale come oggetto decorativo o regalo significativo, rappresenta un connubio perfetto tra sentimento e cultura.',
+  },
   'corno-portafortuna.png': {
     title: 'Corno Portafortuna',
     description:
@@ -106,6 +121,11 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Tentacolo',
     description:
       'Oggetto artigianale dal design originale ispirato alle forme del mare, lavorato a mano e definito da uno stile moderno e distintivo. Una creazione simbolica che richiama Napoli in chiave contemporanea.',
+  },
+  'corno-prismatico-con-maschera.png': {
+    title: 'Corno Prismatico con Maschera',
+    description:
+      'Una reinterpretazione contemporanea del corno classico, caratterizzata da linee più decise e strutturate. Il design prismatico conferisce un aspetto geometrico e distintivo, mentre la maschera mantiene il legame con la cultura partenopea. Un oggetto che fonde estetica moderna e radici storiche.',
   },
   'cuori-di-gesù.png': {
     title: 'Cuori di Gesù',
@@ -146,6 +166,16 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Mani Artigianali 2',
     description:
       'Elementi decorativi raffiguranti mani in pose simboliche, realizzati a mano secondo la tradizione napoletana. Oggetti dal forte impatto visivo e culturale.',
+  },
+  'mani-del-folklore.png': {
+    title: 'Mani del Folklore',
+    description:
+      'Riproduzioni artistiche delle gestualità tipiche napoletane, simbolo di comunicazione immediata e identità culturale. Realizzate in cotto e smaltate a mano, queste mani raccontano il linguaggio silenzioso ma potente della tradizione partenopea. Ogni gesto racchiude significati profondi, tra ironia, scaramanzia e quotidianità.',
+  },
+  'maschere-veneziane-varie-dimensioni.png': {
+    title: 'Maschere Veneziane (Varie Dimensioni)',
+    description:
+      'Maschere decorative realizzate artigianalmente, ispirate alla tradizione veneziana ma reinterpretate attraverso l’estetica del cotto napoletano. Disponibili in diverse dimensioni, mantengono un forte valore decorativo e culturale, perfette per ambienti eleganti o collezioni artistiche.',
   },
   'natività-artigianale.png': {
     title: 'Natività Artigianale',
@@ -202,6 +232,11 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Rosario con Effige e Croce',
     description:
       "Rosario realizzato a mano con cura nelle finiture e nella scelta dei dettagli. Un oggetto di devozione essenziale, pensato per accompagnare momenti di preghiera.",
+  },
+  'san-gennaro-varie-dimensioni.png': {
+    title: 'San Gennaro (Varie Dimensioni)',
+    description:
+      'Raffigurazione artigianale del Santo Patrono di Napoli, simbolo di fede e protezione. Realizzato in cotto e rifinito a mano, ogni pezzo trasmette spiritualità e appartenenza. Disponibile in diverse dimensioni, è un oggetto che unisce devozione e tradizione artistica.',
   },
   'statuetta-arcangelo-gabriele.png': {
     title: 'Statua Arcangelo Gabriele',
@@ -298,6 +333,11 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       "Raffigurazione della testa di San Gennaro realizzata con lavorazione artigianale e attenzione ai dettagli. Un oggetto simbolico della tradizione napoletana, ideale come elemento decorativo dal forte valore identitario.",
   },
+  'tricorno-intrecciato-con-tre-maschere.png': {
+    title: 'Tricorno Intrecciato con Tre Maschere',
+    description:
+      'Opera complessa e scenografica, composta da tre corni intrecciati che si sviluppano in verticale, accompagnati da tre maschere alla base. Il numero tre richiama equilibrio e armonia, mentre la composizione enfatizza il valore simbolico della protezione. Un pezzo di forte impatto visivo e culturale.',
+  },
   'vaso-pompei-antica.png': {
     title: 'Vaso Pompei Antica 1',
     description:
@@ -312,5 +352,15 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     title: 'Vaso Pompei Antica 3',
     description:
       "Vaso decorativo ispirato all'estetica dell'antica Pompei, caratterizzato da dettagli artistici e finiture accurate. Un oggetto che richiama la tradizione classica, perfetto per valorizzare ambienti con stile ed eleganza.",
+  },
+  'vesuvio-1-con-maschera.png': {
+    title: 'Vesuvio 1 con Maschera',
+    description:
+      'Scultura ispirata al profilo del Vesuvio, reinterpretato in chiave artistica con l’inserimento della maschera tradizionale. Il contrasto tra la forma naturale del vulcano e l’elemento umano crea un oggetto unico, simbolo della forza e dell’identità napoletana.',
+  },
+  'vesuvio-2-con-maschera.png': {
+    title: 'Vesuvio 2 con Maschera',
+    description:
+      'Variante del Vesuvio stilizzato, caratterizzata da una forma più morbida e dinamica. La maschera integrata completa l’opera, donando espressività e profondità. Un oggetto che racchiude energia, storia e tradizione in una composizione armoniosa.',
   },
 };

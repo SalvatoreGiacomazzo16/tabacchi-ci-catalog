@@ -7,7 +7,10 @@ import { englishProductContentByFilename } from './products.translations.en';
 import { spanishProductContentByFilename } from './products.translations.es';
 import { frenchProductContentByFilename } from './products.translations.fr';
 import { italianProductContentByFilename } from './products.translations.it';
-import type { ProductImageFilename } from './products.translations.shared';
+import type {
+  ProductContentTranslation,
+  ProductImageFilename,
+} from './products.translations.shared';
 
 const categoryCopy: Record<LanguageCode, ProductTranslation['category']> = {
   it: 'Categoria da definire',
@@ -17,6 +20,61 @@ const categoryCopy: Record<LanguageCode, ProductTranslation['category']> = {
   de: 'Kategorie offen',
 };
 
+const lowercaseTitleWords = new Set([
+  'a',
+  'con',
+  'da',
+  'de',
+  'del',
+  'della',
+  'di',
+  'e',
+  'in',
+  'of',
+  'su',
+]);
+
+function deriveTitleFromFilename(filename: string) {
+  const extensionlessFilename = filename.replace(/\.[^.]+$/, '');
+  const normalizedFilename = extensionlessFilename
+    .normalize('NFC')
+    .replace(/[_-]+/g, ' ')
+    .replace(/\((\d+)\)/g, ' $1 ')
+    .replace(/\bremovebg preview\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return normalizedFilename
+    .split(' ')
+    .map((word, index) => {
+      const lowercasedWord = word.toLocaleLowerCase();
+
+      if (/^img$/i.test(word)) {
+        return 'IMG';
+      }
+
+      if (index > 0 && lowercaseTitleWords.has(lowercasedWord)) {
+        return lowercasedWord;
+      }
+
+      return `${lowercasedWord.charAt(0).toLocaleUpperCase()}${lowercasedWord.slice(1)}`;
+    })
+    .join(' ');
+}
+
+function createTranslation(
+  filename: ProductImageFilename,
+  localizedContent: ProductContentTranslation | undefined,
+  language: LanguageCode,
+): ProductTranslation {
+  return {
+    title: localizedContent?.title ?? deriveTitleFromFilename(filename),
+    description: localizedContent?.description ?? '',
+    longDescription: localizedContent?.longDescription,
+    category: categoryCopy[language],
+  };
+}
+
 function buildTranslations(filename: ProductImageFilename): Record<LanguageCode, ProductTranslation> {
   const italianContent = italianProductContentByFilename[filename];
   const englishContent = englishProductContentByFilename[filename];
@@ -25,36 +83,11 @@ function buildTranslations(filename: ProductImageFilename): Record<LanguageCode,
   const germanContent = germanProductContentByFilename[filename];
 
   return {
-    it: {
-      title: italianContent.title,
-      description: italianContent.description,
-      longDescription: italianContent.longDescription,
-      category: categoryCopy.it,
-    },
-    en: {
-      title: englishContent.title,
-      description: englishContent.description,
-      longDescription: englishContent.longDescription,
-      category: categoryCopy.en,
-    },
-    es: {
-      title: spanishContent.title,
-      description: spanishContent.description,
-      longDescription: spanishContent.longDescription,
-      category: categoryCopy.es,
-    },
-    fr: {
-      title: frenchContent.title,
-      description: frenchContent.description,
-      longDescription: frenchContent.longDescription,
-      category: categoryCopy.fr,
-    },
-    de: {
-      title: germanContent.title,
-      description: germanContent.description,
-      longDescription: germanContent.longDescription,
-      category: categoryCopy.de,
-    },
+    it: createTranslation(filename, italianContent, 'it'),
+    en: createTranslation(filename, englishContent, 'en'),
+    es: createTranslation(filename, spanishContent, 'es'),
+    fr: createTranslation(filename, frenchContent, 'fr'),
+    de: createTranslation(filename, germanContent, 'de'),
   };
 }
 

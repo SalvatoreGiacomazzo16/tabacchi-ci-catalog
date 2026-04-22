@@ -63,7 +63,9 @@ export function ProductDetailSection({
             <h1 className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
               {content.title}
             </h1>
-            <p className="text-base leading-7 text-muted">{content.description}</p>
+            {content.description ? (
+              <p className="text-base leading-7 text-muted">{content.description}</p>
+            ) : null}
           </div>
 
           <div className="grid gap-4 rounded-[1.5rem] border border-line bg-canvas-soft p-5 sm:grid-cols-3">

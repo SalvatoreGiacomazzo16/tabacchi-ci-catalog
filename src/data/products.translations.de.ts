@@ -242,15 +242,15 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Handwerkliche Darstellung des Schutzpatrons von Neapel, Symbol für Glauben und Schutz. Aus Terrakotta gefertigt und von Hand vollendet, vermittelt jedes Stück Spiritualität und Zugehörigkeit. In verschiedenen Größen erhältlich, vereint dieses Objekt Andacht und künstlerische Tradition.',
   },
-  'statuetta-arcangelo-gabriele.png': {
-    title: 'Statue des Erzengels Gabriel',
+  'statuetta-san-michele-arcangelo.png': {
+    title: 'Statue des Erzengels Michael',
     description:
-      'Statue des Erzengels Gabriel, kunsthandwerklich gefertigt. Elegant und symbolträchtig, ideal für religiöse Räume.',
+      'Statue des Erzengels Michael, kunsthandwerklich gefertigt. Elegant und symbolträchtig, ideal für religiöse Räume.',
   },
-  'statuetta-arcangelo-gabriele-dipinta.png': {
-    title: 'Bemalte Statuette des Erzengels Gabriel',
+  'statuetta-san-michele-arcangelo-dipinta.png': {
+    title: 'Bemalte Statuette des Erzengels Michael',
     description:
-      'Statue des Erzengels Gabriel, kunsthandwerklich gefertigt und mit großer Aufmerksamkeit für Details ausgearbeitet. Ein elegantes Objekt, Symbol für Spiritualität und Schutz.',
+      'Statue des Erzengels Michael, kunsthandwerklich gefertigt und mit großer Aufmerksamkeit für Details ausgearbeitet. Ein elegantes Objekt, Symbol für Spiritualität und Schutz.',
   },
   'statuetta-biga-con-cavallo.png': {
     title: 'Römischer Wagen mit Pferd',

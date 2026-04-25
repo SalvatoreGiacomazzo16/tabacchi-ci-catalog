@@ -242,15 +242,15 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Représentation artisanale du saint patron de Naples, symbole de foi et de protection. Réalisé en terre cuite et fini à la main, chaque exemplaire transmet spiritualité et sentiment d’appartenance. Disponible en différentes dimensions, c’est un objet qui unit dévotion et tradition artistique.',
   },
-  'statuetta-arcangelo-gabriele.png': {
-    title: "Statue de l'Archange Gabriel",
+  'statuetta-san-michele-arcangelo.png': {
+    title: "Statue de l'Archange Michel",
     description:
-      "Statue représentant l'Archange Gabriel, réalisée avec un travail artisanal. Élégante et symbolique, elle est idéale pour les environnements religieux.",
+      "Statue représentant l'Archange Michel, réalisée avec un travail artisanal. Élégante et symbolique, elle est idéale pour les environnements religieux.",
   },
-  'statuetta-arcangelo-gabriele-dipinta.png': {
-    title: "Statuette peinte de l'Archange Gabriel",
+  'statuetta-san-michele-arcangelo-dipinta.png': {
+    title: "Statuette peinte de l'Archange Michel",
     description:
-      "Statue représentant l'Archange Gabriel, réalisée avec un travail artisanal et un grand soin des détails. Un objet élégant, symbole de spiritualité et de protection.",
+      "Statue représentant l'Archange Michel, réalisée avec un travail artisanal et un grand soin des détails. Un objet élégant, symbole de spiritualité et de protection.",
   },
   'statuetta-biga-con-cavallo.png': {
     title: 'Bige avec cheval',

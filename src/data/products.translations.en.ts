@@ -242,15 +242,15 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'A handcrafted representation of the Patron Saint of Naples, symbol of faith and protection. Made of terracotta and finished by hand, each piece conveys spirituality and a sense of belonging. Available in various sizes, it is an object that combines devotion and artistic tradition.',
   },
-  'statuetta-arcangelo-gabriele.png': {
-    title: 'Archangel Gabriel Statue',
+  'statuetta-san-michele-arcangelo.png': {
+    title: 'Archangel Michael Statue',
     description:
-      'Statue depicting the Archangel Gabriel, handcrafted with artisanal workmanship. Elegant and symbolic, ideal for religious settings.',
+      'Statue depicting the Archangel Michael, handcrafted with artisanal workmanship. Elegant and symbolic, ideal for religious settings.',
   },
-  'statuetta-arcangelo-gabriele-dipinta.png': {
-    title: 'Painted Archangel Gabriel Statuette',
+  'statuetta-san-michele-arcangelo-dipinta.png': {
+    title: 'Painted Archangel Michael Statuette',
     description:
-      'Statue depicting the Archangel Gabriel, crafted with artisanal workmanship and careful attention to detail. An elegant piece, symbolizing spirituality and protection.',
+      'Statue depicting the Archangel Michael, crafted with artisanal workmanship and careful attention to detail. An elegant piece, symbolizing spirituality and protection.',
   },
   'statuetta-biga-con-cavallo.png': {
     title: 'Roman Chariot with Horse',

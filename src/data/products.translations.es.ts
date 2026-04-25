@@ -242,15 +242,15 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Representación artesanal del Santo Patrón de Nápoles, símbolo de fe y protección. Realizado en barro cocido y acabado a mano, cada pieza transmite espiritualidad y sentido de pertenencia. Disponible en varios tamaños, es un objeto que une devoción y tradición artística.',
   },
-  'statuetta-arcangelo-gabriele.png': {
-    title: 'Estatua del Arcángel Gabriel',
+  'statuetta-san-michele-arcangelo.png': {
+    title: 'Estatua del Arcángel Miguel',
     description:
-      'Estatua que representa al Arcángel Gabriel, realizada con trabajo artesanal. Elegante y simbólica, ideal para ambientes religiosos.',
+      'Estatua que representa al Arcángel Miguel, realizada con trabajo artesanal. Elegante y simbólica, ideal para ambientes religiosos.',
   },
-  'statuetta-arcangelo-gabriele-dipinta.png': {
-    title: 'Estatuilla pintada del Arcángel Gabriel',
+  'statuetta-san-michele-arcangelo-dipinta.png': {
+    title: 'Estatuilla pintada del Arcángel Miguuel',
     description:
-      'Estatua que representa al Arcángel Gabriel, realizada con trabajo artesanal y cuidada en los detalles. Un objeto elegante, símbolo de espiritualidad y protección.',
+      'Estatua que representa al Arcángel Miguel, realizada con trabajo artesanal y cuidada en los detalles. Un objeto elegante, símbolo de espiritualidad y protección.',
   },
   'statuetta-biga-con-cavallo.png': {
     title: 'Carro romano con caballo',

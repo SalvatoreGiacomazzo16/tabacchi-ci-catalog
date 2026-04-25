@@ -242,15 +242,15 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Raffigurazione artigianale del Santo Patrono di Napoli, simbolo di fede e protezione. Realizzato in cotto e rifinito a mano, ogni pezzo trasmette spiritualità e appartenenza. Disponibile in diverse dimensioni, è un oggetto che unisce devozione e tradizione artistica.',
   },
-  'statuetta-arcangelo-gabriele.png': {
-    title: 'Statua Arcangelo Gabriele',
+  'statuetta-san-michele-arcangelo.png': {
+    title: 'Statua San Michele Arcangelo',
     description:
-      "Statua raffigurante l'Arcangelo Gabriele, realizzata con lavorazione artigianale. Elegante e simbolica, ideale per ambienti religiosi.",
+      "Statua raffigurante San Michele Arcangelo, realizzata con lavorazione artigianale. Elegante e simbolica, ideale per ambienti religiosi.",
   },
-  'statuetta-arcangelo-gabriele-dipinta.png': {
-    title: 'Statuetta Dipinta Arcangelo Gabriele',
+  'statuetta-san-michele-arcangelo-dipinta.png': {
+    title: 'Statuetta Dipinta San Michele Arcangelo',
     description:
-      "Statua raffigurante l'Arcangelo Gabriele, realizzata con lavorazione artigianale e cura nei particolari. Un oggetto elegante, simbolo di spiritualità e protezione.",
+      "Statua raffigurante San Michele Arcangelo, realizzata con lavorazione artigianale e cura nei particolari. Un oggetto elegante, simbolo di spiritualità e protezione.",
   },
   'statuetta-biga-con-cavallo.png': {
     title: 'Biga con Cavallo',

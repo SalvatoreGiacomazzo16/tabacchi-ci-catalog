@@ -248,7 +248,7 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
       'Estatua que representa al Arcángel Miguel, realizada con trabajo artesanal. Elegante y simbólica, ideal para ambientes religiosos.',
   },
   'statuetta-san-michele-arcangelo-dipinta.png': {
-    title: 'Estatuilla pintada del Arcángel Miguuel',
+    title: 'Estatuilla pintada del Arcángel Miguel',
     description:
       'Estatua que representa al Arcángel Miguel, realizada con trabajo artesanal y cuidada en los detalles. Un objeto elegante, símbolo de espiritualidad y protección.',
   },

@@ -176,10 +176,10 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Reproducciones artísticas de los gestos típicos napolitanos, símbolo de comunicación inmediata e identidad cultural. Realizadas en barro cocido y esmaltadas a mano, estas manos cuentan el lenguaje silencioso pero poderoso de la tradición local. Cada gesto encierra significados profundos, entre ironía, superstición y vida cotidiana.',
   },
-  'maschere-veneziane-varie-dimensioni.png': {
-    title: 'Máscaras venecianas (varios tamaños)',
+  'maschere-varie-dimensioni.png': {
+    title: 'Máscaras (varios tamaños)',
     description:
-      'Máscaras decorativas elaboradas artesanalmente, inspiradas en la tradición veneciana pero reinterpretadas a través de la estética del barro cocido napolitano. Disponibles en varios tamaños, conservan un fuerte valor decorativo y cultural, perfectas para ambientes elegantes o colecciones artísticas.',
+      "Histórica máscara napolitana de la commedia dell'arte, símbolo de astucia, hambre y rebelión popular.",
   },
   'natività-artigianale.png': {
     title: 'Natividad artesanal',
@@ -267,8 +267,8 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Estatuilla que representa a Héctor de Troya, realizada con cuidado artesanal y atención a los detalles. Inspirada en la historia épica, representa fuerza, valentía y valor heroico, ideal como elemento decorativo de fuerte impacto.',
   },
-  'statuetta-madonna-con-angeli.png': {
-    title: 'Estatua de la Virgen con ángeles',
+  'statuetta-madonna-che-scioglie-i-nodi.png': {
+    title: 'Estatua de la Virgen Desatanudos',
     description:
       'Estatua que representa a la Virgen Desatanudos, realizada con gran atención a los detalles. Un símbolo de esperanza y fe.',
   },

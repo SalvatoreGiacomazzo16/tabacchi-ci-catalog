@@ -176,10 +176,10 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Künstlerische Nachbildungen typischer neapolitanischer Gesten, Sinnbilder unmittelbarer Kommunikation und kultureller Identität. Aus Terrakotta gefertigt und von Hand glasiert, erzählen diese Hände die stille, aber kraftvolle Sprache der lokalen Tradition. Jede Geste trägt tiefe Bedeutungen in sich – zwischen Ironie, Aberglauben und Alltag.',
   },
-  'maschere-veneziane-varie-dimensioni.png': {
-    title: 'Venezianische Masken (verschiedene Größen)',
+  'maschere-varie-dimensioni.png': {
+    title: 'Masken (verschiedene Größen)',
     description:
-      'Dekorative Masken in handwerklicher Ausführung, inspiriert von der venezianischen Tradition und neu interpretiert durch die Ästhetik neapolitanischer Terrakotta. In verschiedenen Größen erhältlich, bewahren sie einen starken dekorativen und kulturellen Wert und eignen sich perfekt für elegante Räume oder kunstvolle Sammlungen.',
+      "Historische neapolitanische Maske der Commedia dell'arte, Symbol für Scharfsinn, Hunger und volkstümliche Rebellion.",
   },
   'natività-artigianale.png': {
     title: 'Handgefertigte Krippenszene',
@@ -267,8 +267,8 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Statuette des Hektor von Troja, kunsthandwerklich mit großer Sorgfalt und Liebe zum Detail gefertigt. Von der epischen Geschichte inspiriert, verkörpert sie Stärke, Mut und heroische Tugend und eignet sich ideal als dekoratives Objekt mit starker Wirkung.',
   },
-  'statuetta-madonna-con-angeli.png': {
-    title: 'Madonnenstatue mit Engeln',
+  'statuetta-madonna-che-scioglie-i-nodi.png': {
+    title: 'Statue der Knotenlösenden Madonna',
     description:
       'Statue der Madonna, die die Knoten löst, mit großer Liebe zum Detail gefertigt. Ein Symbol für Hoffnung und Glauben.',
   },

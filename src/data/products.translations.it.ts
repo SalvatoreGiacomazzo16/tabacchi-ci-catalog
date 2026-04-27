@@ -176,10 +176,10 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Riproduzioni artistiche delle gestualità tipiche napoletane, simbolo di comunicazione immediata e identità culturale. Realizzate in cotto e smaltate a mano, queste mani raccontano il linguaggio silenzioso ma potente della tradizione partenopea. Ogni gesto racchiude significati profondi, tra ironia, scaramanzia e quotidianità.',
   },
-  'maschere-veneziane-varie-dimensioni.png': {
-    title: 'Maschere Veneziane (Varie Dimensioni)',
+  'maschere-varie-dimensioni.png': {
+    title: 'Maschere (Varie Dimensioni)',
     description:
-      'Maschere decorative realizzate artigianalmente, ispirate alla tradizione veneziana ma reinterpretate attraverso l’estetica del cotto napoletano. Disponibili in diverse dimensioni, mantengono un forte valore decorativo e culturale, perfette per ambienti eleganti o collezioni artistiche.',
+      "Storica maschera napoletana della commedia dell'arte simbolo di arguzia, fame e ribellione popolare.",
   },
   'natività-artigianale.png': {
     title: 'Natività Artigianale',
@@ -267,8 +267,8 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       "Statuetta raffigurante Ettore di Troia, realizzata con cura artigianale e attenzione ai dettagli. Ispirata alla storia epica, rappresenta forza, coraggio e valore eroico, ideale come elemento decorativo dal forte impatto.",
   },
-  'statuetta-madonna-con-angeli.png': {
-    title: 'Statua Madonna con Angeli',
+  'statuetta-madonna-che-scioglie-i-nodi.png': {
+    title: 'Statua Madonna che Scioglie i Nodi',
     description:
       'Statua raffigurante la Madonna che scioglie i nodi, realizzata con grande attenzione ai dettagli. Un simbolo di speranza e fede.',
   },

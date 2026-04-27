@@ -176,10 +176,10 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Artistic reproductions of the gestures typical of Neapolitan culture, symbols of immediate communication and cultural identity. Made of terracotta and hand-glazed, these hands tell the silent yet powerful language of the local tradition. Each gesture holds deep meanings, blending irony, superstition, and everyday life.',
   },
-  'maschere-veneziane-varie-dimensioni.png': {
-    title: 'Venetian Masks (Various Sizes)',
+  'maschere-varie-dimensioni.png': {
+    title: 'Masks (Various Sizes)',
     description:
-      'Decorative masks handcrafted and inspired by the Venetian tradition, reinterpreted through the aesthetic language of Neapolitan terracotta. Available in various sizes, they retain a strong decorative and cultural value, perfect for elegant interiors or artistic collections.',
+      "Historic Neapolitan mask from the commedia dell'arte, symbol of wit, hunger, and popular rebellion.",
   },
   'natività-artigianale.png': {
     title: 'Handcrafted Nativity',
@@ -267,8 +267,8 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Statuette depicting Hector of Troy, crafted with artisanal care and attention to detail. Inspired by epic history, it represents strength, courage, and heroic virtue, making it an impactful decorative piece.',
   },
-  'statuetta-madonna-con-angeli.png': {
-    title: 'Our Lady with Angels Statue',
+  'statuetta-madonna-che-scioglie-i-nodi.png': {
+    title: 'Our Lady Undoer of Knots Statue',
     description:
       'Statue depicting Our Lady Undoer of Knots, made with great attention to detail. A symbol of hope and faith.',
   },

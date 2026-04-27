@@ -176,10 +176,10 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Reproductions artistiques des gestuelles typiques napolitaines, symboles d’une communication immédiate et d’une identité culturelle forte. Réalisées en terre cuite et émaillées à la main, ces mains racontent le langage silencieux mais puissant de la tradition locale. Chaque geste renferme des significations profondes, entre ironie, superstition et quotidien.',
   },
-  'maschere-veneziane-varie-dimensioni.png': {
-    title: 'Masques vénitiens (différentes dimensions)',
+  'maschere-varie-dimensioni.png': {
+    title: 'Masques (différentes dimensions)',
     description:
-      'Masques décoratifs réalisés artisanalement, inspirés de la tradition vénitienne mais réinterprétés à travers l’esthétique de la terre cuite napolitaine. Disponibles en différentes dimensions, ils conservent une forte valeur décorative et culturelle, parfaits pour des intérieurs élégants ou des collections artistiques.',
+      "Masque napolitain historique de la commedia dell'arte, symbole de ruse, de faim et de rébellion populaire.",
   },
   'natività-artigianale.png': {
     title: 'Nativité artisanale',
@@ -267,8 +267,8 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Statuette représentant Hector de Troie, réalisée avec un soin artisanal et une grande attention aux détails. Inspirée par l’histoire épique, elle incarne force, courage et valeur héroïque, idéale comme élément décoratif à fort impact.',
   },
-  'statuetta-madonna-con-angeli.png': {
-    title: 'Statue de la Vierge avec anges',
+  'statuetta-madonna-che-scioglie-i-nodi.png': {
+    title: 'Statue de la Vierge qui défait les nœuds',
     description:
       'Statue représentant la Vierge qui défait les nœuds, réalisée avec une grande attention aux détails. Un symbole d’espérance et de foi.',
   },

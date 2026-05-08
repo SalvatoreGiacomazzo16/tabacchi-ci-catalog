@@ -367,4 +367,56 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'A variation of the stylized Vesuvius, characterized by a softer and more dynamic shape. The integrated mask completes the piece, adding expressiveness and depth. An object that brings together energy, history, and tradition in a harmonious composition.',
   },
+  'corno-grande-con-maschere.png': {
+    title: 'Large Horn with Masks',
+    description:
+      'An imposing reinterpretation of the classic Neapolitan lucky horn, decorated with theatrical masks and references to the traditional Smorfia. The composition brings together protective symbolism and decorative art, creating an object with strong visual impact. Every detail recalls the folklore and cultural identity of Naples, transforming the traditional red horn into a true piece of contemporary craftsmanship.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'crocifisso-in-porcellana.png': {
+    title: 'Porcelain Crucifix',
+    description:
+      'Elegant decorative crucifix made of porcelain, characterized by the strong contrast between the dark cross and the pale figure of Christ in relief. The composition conveys spirituality and sobriety while enhancing the craftsmanship of the piece. A classic religious symbol reinterpreted with a refined and essential style, ideal for homes, spaces of reflection, or as a gift with deep spiritual meaning.',
+  },
+  'maschera-del-silvano.png': {
+    title: 'Mask of Silvanus',
+    description:
+      'Evocative ornamental mask recalling the figure of Silvanus, a spirit connected to nature and the woods in ancient tradition. The sculpted details and intense expression give the work a scenic and fascinating character. Perfect as a wall decoration, this handcrafted creation combines folklore, mythology, and contemporary art in a unique and recognizable style.',
+  },
+  'maschera-della-sibilla.png': {
+    title: 'Mask of the Sibyl',
+    description:
+      'Decorative mask inspired by the figure of the Sibyl, a symbol of mystery, prophecy, and ancient tradition. The stylized forms and intense gaze recall the fascination of Mediterranean theatrical and mythological representations. A handcrafted object with strong symbolic value, perfect for enriching interiors with an artistic and cultural touch tied to tradition.',
+  },
+  'quadretto-bartolo-longo-in-porcellana.png': {
+    title: 'Porcelain Bartolo Longo Picture',
+    description:
+      'Decorative porcelain picture dedicated to Bartolo Longo, a figure deeply connected to the spiritual history of Pompeii and to the famous Shrine of Our Lady of the Rosary. The bas-relief highlights the intense and contemplative expression of the Shrine’s founder, turning this object into a symbol of faith, memory, and Neapolitan religious tradition.',
+    longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-di-gesù-in-porcellana.png': {
+    title: 'Porcelain Jesus Picture',
+    description:
+      'Refined porcelain picture depicting the face of Jesus, made with a bas-relief effect that gives the piece depth and elegance. The intense expression and delicately worked details convey spirituality and reflection. The dark frame creates an elegant contrast with the white porcelain, making this object ideal both as a decorative accent and as a religious symbol for the home.',
+  },
+  'statuetta-asso-di-bastoni-con-maschera.png': {
+    title: 'Ace of Clubs Statuette with Mask',
+    description:
+      'Decorative statuette inspired by the Ace of Clubs, a symbol from Neapolitan popular tradition and the Smorfia. The theatrical mask enriches the composition with a direct reference to local folklore, turning the object into an original scenic creation, perfect as an artistic souvenir or furnishing accent with strong cultural identity.',
+  },
+  'statuetta-madonna-in-porcellana.png': {
+    title: 'Porcelain Madonna Statuette',
+    description:
+      'Elegant porcelain statuette of the Madonna, characterized by harmonious lines and delicate tones that enhance its spirituality and refinement. The figure evokes peace, protection, and devotion, making it perfect as a religious or decorative object. The glossy finish and golden details further elevate the work, giving it a sober and elegant style.',
+  },
+  'statuetta-san-giuseppe-a-riposo.png': {
+    title: 'Resting Saint Joseph Statuette',
+    description:
+      'Delicate representation of Saint Joseph in a resting pose, a symbol of protection, serenity, and spiritual trust. The statuette conveys peace and recollection through the soft lines and relaxed expression of the figure. Crafted with artisanal care and refined details, it is ideal for homes, prayer spaces, or as a gift with deep religious meaning.',
+  },
+  'vesuvio-3-con-maschera.png': {
+    title: 'Vesuvius 3 with Mask',
+    description:
+      'Decorative sculpture paying homage to one of the most iconic symbols of Naples: Mount Vesuvius. The work is enriched with a theatrical mask, a distinctive element of the artistic line that creates a direct link with Neapolitan tradition and culture. The sinuous forms and artisanal workmanship make this piece unique, perfect as an artistic souvenir or decorative accent capable of telling the authentic soul of the Neapolitan area.',
+  },
 };

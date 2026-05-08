@@ -367,4 +367,56 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Variante del Vesubio estilizado, caracterizada por una forma más suave y dinámica. La máscara integrada completa la obra, aportándole expresividad y profundidad. Un objeto que reúne energía, historia y tradición en una composición armoniosa.',
   },
+  'corno-grande-con-maschere.png': {
+    title: 'Cuerno grande con máscaras',
+    description:
+      'Imponente reinterpretación del clásico cuerno napolitano de la suerte, decorado con máscaras teatrales y referencias a la smorfia tradicional. La composición une simbología protectora y arte decorativo, dando vida a un objeto de gran impacto visual. Cada detalle evoca el folclore y la identidad cultural de Nápoles, transformando el tradicional cuerno rojo en una verdadera obra de artesanía contemporánea.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'crocifisso-in-porcellana.png': {
+    title: 'Crucifijo de porcelana',
+    description:
+      'Elegante crucifijo decorativo realizado en porcelana, caracterizado por un fuerte contraste entre la cruz oscura y la figura clara de Cristo en relieve. La composición transmite espiritualidad y sobriedad, valorizando la artesanía de la obra. Un símbolo religioso clásico reinterpretado con un estilo refinado y esencial, ideal para ambientes domésticos, espacios de recogimiento o como regalo de profundo significado espiritual.',
+  },
+  'maschera-del-silvano.png': {
+    title: 'Máscara del Silvano',
+    description:
+      'Sugerente máscara ornamental que recuerda la figura del Silvano, espíritu vinculado a la naturaleza y a los bosques en la tradición antigua. Los detalles esculpidos y la expresión intensa otorgan a la obra un carácter escenográfico y fascinante. Perfecta como elemento decorativo de pared, esta creación artesanal une folclore, mitología y arte contemporáneo en un estilo único y reconocible.',
+  },
+  'maschera-della-sibilla.png': {
+    title: 'Máscara de la Sibila',
+    description:
+      'Máscara decorativa inspirada en la figura de la Sibila, símbolo de misterio, profecía y tradición antigua. Las formas estilizadas y la mirada intensa evocan el encanto de las representaciones teatrales y mitológicas del Mediterráneo. Un objeto artesanal de fuerte valor simbólico, perfecto para enriquecer los ambientes con un toque artístico y cultural ligado a la tradición.',
+  },
+  'quadretto-bartolo-longo-in-porcellana.png': {
+    title: 'Cuadro de Bartolo Longo en porcelana',
+    description:
+      'Cuadro decorativo en porcelana dedicado a Bartolo Longo, figura profundamente vinculada a la historia espiritual de la ciudad de Pompeya y al célebre Santuario de la Beata Virgen del Rosario. El bajorrelieve resalta la expresión intensa y contemplativa del fundador del Santuario, transformando este objeto en un símbolo de fe, memoria y tradición religiosa partenopea.',
+    longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-di-gesù-in-porcellana.png': {
+    title: 'Cuadro de Jesús en porcelana',
+    description:
+      'Refinado cuadro en porcelana que representa el rostro de Jesús, realizado con efecto de bajorrelieve que aporta profundidad y elegancia a la obra. La expresión intensa y los detalles delicadamente trabajados transmiten espiritualidad y recogimiento. El marco oscuro crea un contraste elegante con el blanco de la porcelana, haciendo que este objeto sea ideal tanto como complemento decorativo como símbolo religioso para el hogar.',
+  },
+  'statuetta-asso-di-bastoni-con-maschera.png': {
+    title: 'Estatuilla As de Bastos con máscara',
+    description:
+      'Estatuilla decorativa inspirada en el As de Bastos, símbolo de la tradición popular napolitana y de la smorfia. La máscara teatral enriquece la composición con una referencia directa al folclore partenopeo, transformando el objeto en una creación escenográfica y original, perfecta como recuerdo artístico o complemento decorativo de fuerte valor identitario.',
+  },
+  'statuetta-madonna-in-porcellana.png': {
+    title: 'Estatuilla de la Virgen en porcelana',
+    description:
+      'Elegante estatuilla de la Virgen realizada en porcelana, caracterizada por líneas armoniosas y tonalidades delicadas que realzan su espiritualidad y refinamiento. La figura evoca una sensación de paz, protección y devoción, por lo que resulta perfecta como objeto religioso o decorativo. El acabado brillante y los detalles dorados valorizan aún más la obra, otorgándole un estilo sobrio y elegante.',
+  },
+  'statuetta-san-giuseppe-a-riposo.png': {
+    title: 'Estatuilla de San José en reposo',
+    description:
+      'Delicada representación de San José en posición de reposo, símbolo de protección, serenidad y confianza espiritual. La estatuilla transmite una sensación de paz y recogimiento gracias a las líneas suaves y a la expresión relajada de la figura. Realizada con cuidado artesanal y detalles refinados, es ideal para ambientes domésticos, espacios de oración o como regalo de profundo significado religioso.',
+  },
+  'vesuvio-3-con-maschera.png': {
+    title: 'Vesubio 3 con máscara',
+    description:
+      'Escultura decorativa que rinde homenaje a uno de los símbolos más icónicos de Nápoles: el Vesubio. La obra está enriquecida con una máscara teatral, elemento distintivo de la línea artística, que crea un vínculo directo con el mundo de la tradición y la cultura partenopea. Las formas sinuosas y el trabajo artesanal hacen de esta pieza un objeto único, perfecto como recuerdo artístico o complemento decorativo capaz de contar el alma auténtica del territorio napolitano.',
+  },
 };

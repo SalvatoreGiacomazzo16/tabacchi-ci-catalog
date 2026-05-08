@@ -11,8 +11,18 @@ const systemFileNames = new Set(['.DS_Store']);
 const validImageExtension = /\.(png|jpe?g|webp|gif|avif|svg)$/i;
 const excludedProductImageFilenames = new Set([
   'bambin-gesù-in-culla-celeste.png',
+  'corno-grande-con-maschere.jpeg',
   'crocifisso-artigianale.png',
+  'crocifisso-in-porcellana.jpeg',
+  'maschera-del-silvano.jpeg',
+  'maschera-della-sibilla.jpeg',
+  'quadretto-bartolo-longo-in-porcellana.jpeg',
+  'quadretto-di-gesù-in-porcellana.jpeg',
+  'statuetta-asso-di-bastoni-con-maschera.jpeg',
+  'statuetta-madonna-in-porcellana.jpeg',
+  'statuetta-san-giuseppe-a-riposo.jpeg',
   'tondo-sacro-da-appoggio.png',
+  'vesuvio-3-con-maschera.jpeg',
 ]);
 
 function isValidImageFile(entry) {

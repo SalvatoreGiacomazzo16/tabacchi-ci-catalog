@@ -367,4 +367,56 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Variante des stilisierten Vesuvs, gekennzeichnet durch eine weichere und dynamischere Form. Die integrierte Maske vervollständigt das Werk und verleiht ihm Ausdruckskraft und Tiefe. Ein Objekt, das Energie, Geschichte und Tradition in einer harmonischen Komposition vereint.',
   },
+  'corno-grande-con-maschere.png': {
+    title: 'Großes Horn mit Masken',
+    description:
+      'Eindrucksvolle Neuinterpretation des klassischen neapolitanischen Glückshorns, dekoriert mit Theatermasken und Verweisen auf die traditionelle Smorfia. Die Komposition verbindet Schutzsymbolik und dekorative Kunst und schafft ein Objekt mit starker visueller Wirkung. Jedes Detail erinnert an Folklore und kulturelle Identität Neapels und verwandelt das traditionelle rote Horn in ein echtes Werk zeitgenössischen Kunsthandwerks.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'crocifisso-in-porcellana.png': {
+    title: 'Kruzifix aus Porzellan',
+    description:
+      'Elegantes dekoratives Kruzifix aus Porzellan, geprägt durch den starken Kontrast zwischen dem dunklen Kreuz und der hellen Christusfigur im Relief. Die Komposition vermittelt Spiritualität und Zurückhaltung und hebt zugleich die handwerkliche Qualität des Werkes hervor. Ein klassisches religiöses Symbol, neu interpretiert in einem raffinierten und schlichten Stil, ideal für Wohnräume, Orte der Besinnung oder als Geschenk von tiefer spiritueller Bedeutung.',
+  },
+  'maschera-del-silvano.png': {
+    title: 'Maske des Silvanus',
+    description:
+      'Ausdrucksstarke Ziermaske, die an die Figur des Silvanus erinnert, einen in der antiken Tradition mit Natur und Wäldern verbundenen Geist. Die modellierten Details und der intensive Ausdruck verleihen dem Werk einen szenischen und faszinierenden Charakter. Perfekt als Wanddekoration, verbindet diese handwerkliche Kreation Folklore, Mythologie und zeitgenössische Kunst in einem einzigartigen und wiedererkennbaren Stil.',
+  },
+  'maschera-della-sibilla.png': {
+    title: 'Maske der Sibylle',
+    description:
+      'Dekorative Maske, inspiriert von der Figur der Sibylle, einem Symbol für Geheimnis, Prophezeiung und antike Tradition. Die stilisierten Formen und der intensive Blick erinnern an die Faszination theatralischer und mythologischer Darstellungen des Mittelmeerraums. Ein handgefertigtes Objekt von starkem Symbolwert, perfekt, um Räume mit einem künstlerischen und kulturellen Akzent im Zeichen der Tradition zu bereichern.',
+  },
+  'quadretto-bartolo-longo-in-porcellana.png': {
+    title: 'Bartolo-Longo-Bild aus Porzellan',
+    description:
+      'Dekoratives Porzellanbild, Bartolo Longo gewidmet, einer Persönlichkeit, die eng mit der spirituellen Geschichte der Stadt Pompeji und dem berühmten Heiligtum der Seligen Jungfrau vom Rosenkranz verbunden ist. Das Basrelief hebt den intensiven und kontemplativen Ausdruck des Gründers des Heiligtums hervor und macht dieses Objekt zu einem Symbol für Glauben, Erinnerung und neapolitanische religiöse Tradition.',
+    longDescription: bartoloLongoLongDescription,
+  },
+  'quadretto-di-gesù-in-porcellana.png': {
+    title: 'Jesusbild aus Porzellan',
+    description:
+      'Raffiniertes Porzellanbild mit dem Antlitz Jesu, ausgeführt mit einem Basrelief-Effekt, der dem Werk Tiefe und Eleganz verleiht. Der intensive Ausdruck und die fein gearbeiteten Details vermitteln Spiritualität und Sammlung. Der dunkle Rahmen schafft einen eleganten Kontrast zum Weiß des Porzellans und macht dieses Objekt sowohl als dekoratives Element als auch als religiöses Symbol für das Zuhause ideal.',
+  },
+  'statuetta-asso-di-bastoni-con-maschera.png': {
+    title: 'Statuette Ass der Stäbe mit Maske',
+    description:
+      'Dekorative Statuette, inspiriert vom Ass der Stäbe, einem Symbol der neapolitanischen Volkstradition und der Smorfia. Die Theatermaske bereichert die Komposition mit einem direkten Bezug zur partenopeischen Folklore und verwandelt das Objekt in eine originelle szenische Kreation, perfekt als künstlerisches Souvenir oder dekoratives Element mit starkem Identitätswert.',
+  },
+  'statuetta-madonna-in-porcellana.png': {
+    title: 'Madonnenstatuette aus Porzellan',
+    description:
+      'Elegante Madonnenstatuette aus Porzellan, geprägt von harmonischen Linien und zarten Farbtönen, die ihre Spiritualität und Raffinesse hervorheben. Die Figur vermittelt Frieden, Schutz und Hingabe und eignet sich dadurch perfekt als religiöses oder dekoratives Objekt. Die glänzende Oberfläche und die goldenen Details werten das Werk zusätzlich auf und verleihen ihm einen schlichten und eleganten Stil.',
+  },
+  'statuetta-san-giuseppe-a-riposo.png': {
+    title: 'Statuette des ruhenden heiligen Josef',
+    description:
+      'Zarte Darstellung des heiligen Josef in ruhender Haltung, Symbol für Schutz, Gelassenheit und spirituelles Vertrauen. Die Statuette vermittelt durch die weichen Linien und den entspannten Ausdruck der Figur ein Gefühl von Frieden und Sammlung. Mit handwerklicher Sorgfalt und feinen Details gefertigt, ist sie ideal für Wohnräume, Gebetsbereiche oder als Geschenk von tiefer religiöser Bedeutung.',
+  },
+  'vesuvio-3-con-maschera.png': {
+    title: 'Vesuv 3 mit Maske',
+    description:
+      'Dekorative Skulptur, die einem der ikonischsten Symbole Neapels gewidmet ist: dem Vesuv. Das Werk ist mit einer Theatermaske bereichert, einem charakteristischen Element der künstlerischen Linie, das eine direkte Verbindung zur Welt der partenopeischen Tradition und Kultur schafft. Die geschwungenen Formen und die handwerkliche Verarbeitung machen dieses Stück einzigartig, perfekt als künstlerisches Souvenir oder dekoratives Element, das die authentische Seele des neapolitanischen Gebiets erzählt.',
+  },
 };

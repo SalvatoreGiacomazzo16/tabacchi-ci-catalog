@@ -3,6 +3,7 @@
 
 export const productImageFilenames = [
   "acquasantiera-raffigurante-cristo.png",
+  "anemone-decorativo-in-ceramica.jpeg",
   "bambin-gesù-artigianale.png",
   "bambin-gesù-in-culla-artigianale.png",
   "busto-pulcinella-artigianale-2.png",
@@ -79,4 +80,4 @@ export const productImageFilenames = [
   "vesuvio-3-con-maschera.png",
 ] as const;
 
-export const productImageCount = 75;
+export const productImageCount = 76;

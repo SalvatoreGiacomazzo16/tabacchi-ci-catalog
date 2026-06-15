@@ -25,6 +25,11 @@ const cornoPortafortunaLongDescription = [
 ];
 
 export const frenchProductContentByFilename: ProductContentTranslationByFilename = {
+  'anemone-decorativo-in-ceramica.jpeg': {
+    title: 'Anémone Décorative en Céramique',
+    description:
+      'Un accessoire décoratif original inspiré des formes sinueuses des anémones de mer. Réalisé en céramique émaillée, il se distingue par son design dynamique et ses finitions brillantes, qui mettent en valeur chaque détail.\n\nParfait pour enrichir les intérieurs modernes, classiques ou de style méditerranéen, il peut être utilisé comme élément décoratif sur des étagères, des tables, des bibliothèques ou dans des vitrines.\n\nDisponible dans différentes couleurs et associations chromatiques, allant des nuances de bleu et de bleu clair aux variantes plus lumineuses et multicolores, afin de s’adapter facilement à tout type de décoration intérieure.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Bénitier du Sacré-Cœur',
     description:

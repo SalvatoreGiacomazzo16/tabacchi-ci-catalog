@@ -25,6 +25,11 @@ const cornoPortafortunaLongDescription = [
 ];
 
 export const germanProductContentByFilename: ProductContentTranslationByFilename = {
+  'anemone-decorativo-in-ceramica.jpeg': {
+    title: 'Dekorative Keramik-Anemone',
+    description:
+      'Ein originelles Wohnaccessoire, das von den geschwungenen Formen der Seeanemonen inspiriert ist. Es wird aus glasierter Keramik gefertigt und zeichnet sich durch sein dynamisches Design sowie seine glänzenden Oberflächen aus, die jedes Detail hervorheben.\n\nEs eignet sich ideal zur Bereicherung moderner, klassischer oder mediterran eingerichteter Räume und kann als dekoratives Element auf Regalen, Tischen, Bücherregalen oder in Vitrinen platziert werden.\n\nErhältlich in verschiedenen Farben und Farbkombinationen, von Blau- und Hellblautönen bis hin zu helleren und mehrfarbigen Varianten, sodass es sich problemlos an jede Einrichtung anpassen lässt.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Weihwasserbecken Heiligstes Herz Jesu',
     description:

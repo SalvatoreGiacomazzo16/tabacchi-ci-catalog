@@ -25,6 +25,11 @@ const cornoPortafortunaLongDescription = [
 ];
 
 export const englishProductContentByFilename: ProductContentTranslationByFilename = {
+  'anemone-decorativo-in-ceramica.jpeg': {
+    title: 'Decorative Ceramic Anemone',
+    description:
+      'An original decorative accessory inspired by the graceful, flowing shapes of sea anemones. Made from glazed ceramic, it stands out for its dynamic design and glossy finishes, which enhance every detail.\n\nPerfect for enriching modern, classic or Mediterranean-style interiors, it can be displayed as a decorative element on shelves, tables, bookcases and in display cabinets.\n\nAvailable in a variety of colours and colour combinations, ranging from shades of blue and light blue to lighter and multicoloured variations, allowing it to blend easily into any interior setting.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Sacred Heart Holy Water Font',
     description:

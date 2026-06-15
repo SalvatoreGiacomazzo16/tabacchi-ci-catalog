@@ -25,6 +25,11 @@ const cornoPortafortunaLongDescription = [
 ];
 
 export const italianProductContentByFilename: ProductContentTranslationByFilename = {
+  'anemone-decorativo-in-ceramica.jpeg': {
+    title: 'Anemone Decorativo in Ceramica',
+    description:
+      'Originale complemento d’arredo ispirato alle forme sinuose degli anemoni marini. Realizzato in ceramica smaltata, si distingue per il design dinamico e le finiture lucide che ne valorizzano ogni dettaglio.\n\nPerfetto per arricchire ambienti moderni, classici o dallo stile mediterraneo, può essere utilizzato come elemento decorativo su mensole, tavoli, librerie e vetrine.\n\nDisponibile in diverse colorazioni e combinazioni cromatiche, dalle tonalità del blu e del celeste fino alle varianti più chiare e multicolore, per adattarsi facilmente a qualsiasi contesto d’arredo.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Acquasantiera Cuore di Gesù',
     description:
@@ -410,7 +415,7 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
       'Elegante statuetta della Madonna realizzata in porcellana, caratterizzata da linee armoniose e tonalità delicate che ne esaltano la spiritualità e la raffinatezza. La figura richiama un senso di pace, protezione e devozione, rendendola perfetta come oggetto religioso o decorativo. La finitura lucida e i dettagli dorati valorizzano ulteriormente l’opera, conferendole uno stile sobrio ed elegante.',
   },
   'statuetta-san-giuseppe-a-riposo.png': {
-    title: 'Statuetta Giuseppe a Riposo',
+    title: 'Statuetta Giuseppe Dormiente',
     description:
       'Delicata rappresentazione di San Giuseppe in posizione di riposo, simbolo di protezione, serenità e affidamento spirituale. La statuetta trasmette un senso di pace e raccoglimento grazie alle linee morbide e all’espressione rilassata della figura. Realizzata con cura artigianale e dettagli raffinati, è ideale per ambienti domestici, spazi di preghiera o come dono dal profondo significato religioso.',
   },

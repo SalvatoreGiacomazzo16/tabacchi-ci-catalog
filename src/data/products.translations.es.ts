@@ -25,6 +25,11 @@ const cornoPortafortunaLongDescription = [
 ];
 
 export const spanishProductContentByFilename: ProductContentTranslationByFilename = {
+  'anemone-decorativo-in-ceramica.jpeg': {
+    title: 'Anémona Decorativa de Cerámica',
+    description:
+      'Original complemento decorativo inspirado en las formas sinuosas de las anémonas marinas. Realizado en cerámica esmaltada, destaca por su diseño dinámico y sus acabados brillantes, que realzan cada detalle.\n\nPerfecto para enriquecer ambientes modernos, clásicos o de estilo mediterráneo, puede utilizarse como elemento decorativo en estanterías, mesas, librerías y vitrinas.\n\nDisponible en diferentes colores y combinaciones cromáticas, desde tonos azules y celestes hasta variantes más claras y multicolores, para adaptarse fácilmente a cualquier estilo de decoración.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Pila de agua bendita del Sagrado Corazón',
     description:

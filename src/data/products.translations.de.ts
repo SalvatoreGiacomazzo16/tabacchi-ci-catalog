@@ -30,6 +30,28 @@ export const germanProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Ein originelles Wohnaccessoire, das von den geschwungenen Formen der Seeanemonen inspiriert ist. Es wird aus glasierter Keramik gefertigt und zeichnet sich durch sein dynamisches Design sowie seine glänzenden Oberflächen aus, die jedes Detail hervorheben.\n\nEs eignet sich ideal zur Bereicherung moderner, klassischer oder mediterran eingerichteter Räume und kann als dekoratives Element auf Regalen, Tischen, Bücherregalen oder in Vitrinen platziert werden.\n\nErhältlich in verschiedenen Farben und Farbkombinationen, von Blau- und Hellblautönen bis hin zu helleren und mehrfarbigen Varianten, sodass es sich problemlos an jede Einrichtung anpassen lässt.',
   },
+  'calamaro-in-cotto-napoletano.jpeg': {
+    title: 'Kalmar aus Neapolitanischer Terrakotta',
+    description:
+      'Holen Sie sich den Zauber des Meeres nach Hause mit diesem edlen Kalmar aus neapolitanischer Terrakotta, der nach der kunsthandwerklichen Tradition Kampaniens von Hand gefertigt und bemalt wird. Seine geschwungenen Formen, die sorgfältig modellierten Tentakel und die lebendigen, vom Mittelmeer inspirierten Farbtöne machen jedes Stück zu einem kleinen Kunstwerk, das jedem Raum Charakter und Authentizität verleiht.\n\nIdeal als dekoratives Wohnaccessoire für Häuser am Meer, mediterran eingerichtete Räume oder als originelles Souvenir der neapolitanischen Tradition, vereint dieses handgefertigte Objekt die ganze Schönheit lokaler Handwerkskunst. Jedes Exemplar wird einzeln gearbeitet und kann daher leichte Abweichungen aufweisen, die seine Einzigartigkeit und seinen handwerklichen Wert bestätigen.\n\nDer Kalmar ist in verschiedenen Farben und Varianten erhältlich, damit Sie die Kombination wählen können, die am besten zu Ihrem Geschmack oder Ihrer Einrichtung passt. Entdecken Sie alle verfügbaren Versionen und finden Sie das perfekte Stück, um ein authentisches Stück Meer und Tradition in Ihr Zuhause zu bringen.',
+  },
+  'corni-decorati.jpeg': {
+    title: 'Dekorierte Glückshörner',
+    description:
+      'Als Symbol für Tradition, Glück und neapolitanisches Kunsthandwerk werden die Dekorierten Glückshörner sorgfältig von Hand gefertigt und bemalt. So entsteht ein dekoratives Objekt, das die ganze Authentizität der neapolitanischen Kultur in sich trägt. Verziert mit Details, die von den Farben und Düften des Mittelmeers inspiriert sind, wie Zitronen, Chilischoten, Blumen und Blätter, verbinden diese Stücke Eleganz, Farbe und Bedeutung in einer einzigen Kreation.\n\nPerfekt als Geschenkidee, Gastgeschenk oder Wohnaccessoire, verleihen sie jedem Raum Charakter und sind eine Hommage an die neapolitanische Tradition, handwerklich neu interpretiert. Jedes Stück wird einzeln geformt und dekoriert, wodurch jedes Horn einzigartig und unwiederholbar ist.\n\nDie Dekorierten Glückshörner sind in verschiedenen Größen, Dekorationen und Varianten erhältlich, damit Sie das Modell wählen können, das am besten zu Ihrem Stil oder zum Anlass passt, zu dem Sie es verschenken möchten. Entdecken Sie alle verfügbaren Versionen und tragen Sie ein zeitloses Symbol der neapolitanischen Tradition bei sich.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'maschera-pulcinella-decorata-in-cotto-napoletano.jpeg': {
+    title: 'Dekorierte Pulcinella-Maske aus Neapolitanischer Terrakotta',
+    description:
+      'Als unbestrittenes Symbol der neapolitanischen Tradition feiert die Dekorierte Pulcinella-Maske aus Neapolitanischer Terrakotta eine der ikonischsten Figuren Neapels durch elegante kunsthandwerkliche Verarbeitung. Vollständig von Hand modelliert und bemalt, ist sie mit einer reichen Dekoration aus Zitronen, Chilischoten und Blättern veredelt, Elementen, die an die Farben, Düfte und Identität Kampaniens erinnern.\n\nPerfekt als Wanddekoration, Souvenir oder Geschenkidee, vereint diese Kreation Kunst, Tradition und Kultur in einem einzigen handgefertigten Objekt. Jedes Detail wird mit Sorgfalt ausgearbeitet, wodurch jede Maske zu einem Unikat wird, das jedem Raum Charakter und Authentizität verleihen kann.',
+    longDescription: pulcinellaLongDescription,
+  },
+  'polpi-in-cotto-napoletano.jpeg': {
+    title: 'Oktopusse aus Neapolitanischer Terrakotta',
+    description:
+      'Die Oktopusse aus Neapolitanischer Terrakotta sind eine Hommage an das Meer und an die kunsthandwerkliche Tradition Kampaniens. Vollständig von Hand gefertigt und bemalt, zeichnen sie sich durch weiche Formen, verflochtene Tentakel und lebendige glasierte Oberflächen aus, die jede Kreation einzigartig und voller Persönlichkeit machen.\n\nPerfekt als Wohnaccessoire, Souvenir oder Geschenkidee, verleihen diese dekorativen Oktopusse jedem Raum eine authentische mediterrane Note. Die handwerkliche Verarbeitung hebt jedes Detail hervor und verwandelt jedes Stück in ein kleines Kunstwerk, das den Charme der neapolitanischen Tradition erzählt.\n\nDie Oktopusse aus Neapolitanischer Terrakotta sind in verschiedenen Farben, Größen und Varianten erhältlich, damit Sie das Modell wählen können, das am besten zu Ihrem Geschmack oder Einrichtungsstil passt. Jedes Exemplar wird einzeln gefertigt und kann leichte Unterschiede aufweisen, Merkmale, die seine Authentizität und handwerkliche Einzigartigkeit bestätigen.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Weihwasserbecken Heiligstes Herz Jesu',
     description:

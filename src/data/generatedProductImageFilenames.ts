@@ -9,9 +9,11 @@ export const productImageFilenames = [
   "busto-pulcinella-artigianale-2.png",
   "busto-pulcinella-artigianale.png",
   "busto-san-gennaro-artigianale.png",
+  "calamaro-in-cotto-napoletano.jpeg",
   "cartolina-di-chiesa.png",
   "civetta-in-bronzo.png",
   "composizione-di-corni.png",
+  "corni-decorati.jpeg",
   "corni-portafortuna-2.png",
   "corni-portafortuna-pulcinella.jpeg",
   "corni-portafortuna.png",
@@ -36,11 +38,13 @@ export const productImageFilenames = [
   "mani-del-folklore.png",
   "maschera-del-silvano.png",
   "maschera-della-sibilla.png",
+  "maschera-pulcinella-decorata-in-cotto-napoletano.jpeg",
   "maschere-varie-dimensioni.png",
   "natività-artigianale.png",
   "piatto-pompei-antica-2.png",
   "piatto-pompei-antica-3.jpeg",
   "piatto-pompei-antica.png",
+  "polpi-in-cotto-napoletano.jpeg",
   "quadretto-bartolo-longo-in-porcellana.png",
   "quadretto-di-bartolo-longo.png",
   "quadretto-di-gesù-in-porcellana.png",
@@ -80,4 +84,4 @@ export const productImageFilenames = [
   "vesuvio-3-con-maschera.png",
 ] as const;
 
-export const productImageCount = 76;
+export const productImageCount = 80;

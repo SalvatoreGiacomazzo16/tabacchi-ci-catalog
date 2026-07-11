@@ -30,6 +30,28 @@ export const frenchProductContentByFilename: ProductContentTranslationByFilename
     description:
       'Un accessoire décoratif original inspiré des formes sinueuses des anémones de mer. Réalisé en céramique émaillée, il se distingue par son design dynamique et ses finitions brillantes, qui mettent en valeur chaque détail.\n\nParfait pour enrichir les intérieurs modernes, classiques ou de style méditerranéen, il peut être utilisé comme élément décoratif sur des étagères, des tables, des bibliothèques ou dans des vitrines.\n\nDisponible dans différentes couleurs et associations chromatiques, allant des nuances de bleu et de bleu clair aux variantes plus lumineuses et multicolores, afin de s’adapter facilement à tout type de décoration intérieure.',
   },
+  'calamaro-in-cotto-napoletano.jpeg': {
+    title: 'Calamar en Terre Cuite Napolitaine',
+    description:
+      "Faites entrer chez vous le charme de la mer avec ce raffiné calamar en terre cuite napolitaine, réalisé et peint à la main selon la tradition artisanale de Campanie. Ses formes sinueuses, ses tentacules modelés avec soin et ses teintes vives inspirées de la Méditerranée font de chaque pièce une petite oeuvre d'art, capable d'apporter du caractère et de l'authenticité à tout intérieur.\n\nIdéal comme objet décoratif pour les maisons en bord de mer, les ambiances de style méditerranéen ou comme souvenir original de la tradition napolitaine, cet objet artisanal renferme toute la beauté du savoir-faire local. Chaque exemplaire est travaillé individuellement, c'est pourquoi il peut présenter de légères variations qui attestent son unicité et sa valeur artisanale.\n\nLe calamar est disponible en différentes couleurs et variantes, afin de vous permettre de choisir la combinaison qui correspond le mieux à vos goûts ou à votre décoration. Découvrez toutes les versions disponibles et trouvez celle qui apportera à votre maison une authentique touche de mer et de tradition.",
+  },
+  'corni-decorati.jpeg': {
+    title: 'Cornes Décorées',
+    description:
+      "Symboles de tradition, de chance et d'artisanat napolitain, les Cornes Décorées sont réalisées et peintes à la main avec soin, donnant vie à un objet décoratif qui renferme toute l'authenticité de la culture napolitaine. Enrichies de détails inspirés des couleurs et des parfums de la Méditerranée, comme les citrons, les piments, les fleurs et les feuilles, ces créations unissent élégance, couleur et signification en une seule pièce.\n\nParfaites comme idée cadeau, souvenir de cérémonie ou objet décoratif, elles apportent une touche de caractère à tout intérieur et rendent hommage à la tradition napolitaine réinterprétée de manière artisanale. Chaque pièce est modelée et décorée individuellement, ce qui rend chaque corne unique et irremplaçable.\n\nLes Cornes Décorées sont disponibles en différentes tailles, décorations et variantes, afin de vous permettre de choisir le modèle qui reflète le mieux votre style ou l'occasion pour laquelle vous souhaitez l'offrir. Découvrez toutes les versions disponibles et emportez avec vous un symbole intemporel de la tradition napolitaine.",
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'maschera-pulcinella-decorata-in-cotto-napoletano.jpeg': {
+    title: 'Masque Pulcinella Décoré en Terre Cuite Napolitaine',
+    description:
+      "Symbole incontesté de la tradition napolitaine, le Masque Pulcinella Décoré en Terre Cuite Napolitaine célèbre l'un des personnages les plus emblématiques de Naples à travers un élégant travail artisanal. Entièrement modelé et peint à la main, il est enrichi d'une riche décoration de citrons, de piments et de feuilles, des éléments qui rappellent les couleurs, les parfums et l'identité du territoire campanien.\n\nParfait comme décoration murale, souvenir ou idée cadeau, cette création unit art, tradition et culture en une seule pièce artisanale. Chaque détail est réalisé avec soin, faisant de chaque masque une pièce unique, capable d'apporter du caractère et de l'authenticité à tout intérieur.",
+    longDescription: pulcinellaLongDescription,
+  },
+  'polpi-in-cotto-napoletano.jpeg': {
+    title: 'Poulpes en Terre Cuite Napolitaine',
+    description:
+      "Les Poulpes en Terre Cuite Napolitaine rendent hommage à la mer et à la tradition artisanale de Campanie. Entièrement réalisés et peints à la main, ils se distinguent par leurs formes souples, leurs tentacules entrelacés et leurs finitions émaillées vives, qui rendent chaque création unique et pleine de personnalité.\n\nParfaits comme objets décoratifs, souvenirs ou idées cadeau, ces poulpes décoratifs apportent une authentique touche méditerranéenne à tout intérieur. Le travail artisanal valorise chaque détail, transformant chaque pièce en une petite oeuvre d'art capable de raconter le charme de la tradition napolitaine.\n\nLes Poulpes en Terre Cuite Napolitaine sont disponibles en différentes couleurs, tailles et variantes, afin de vous permettre de choisir le modèle qui correspond le mieux à vos goûts ou à votre style de décoration. Chaque exemplaire est réalisé individuellement et peut présenter de légères différences, caractéristiques qui en certifient l'authenticité et l'unicité artisanale.",
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Bénitier du Sacré-Cœur',
     description:

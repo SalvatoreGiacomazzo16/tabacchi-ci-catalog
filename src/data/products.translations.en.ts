@@ -30,6 +30,28 @@ export const englishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'An original decorative accessory inspired by the graceful, flowing shapes of sea anemones. Made from glazed ceramic, it stands out for its dynamic design and glossy finishes, which enhance every detail.\n\nPerfect for enriching modern, classic or Mediterranean-style interiors, it can be displayed as a decorative element on shelves, tables, bookcases and in display cabinets.\n\nAvailable in a variety of colours and colour combinations, ranging from shades of blue and light blue to lighter and multicoloured variations, allowing it to blend easily into any interior setting.',
   },
+  'calamaro-in-cotto-napoletano.jpeg': {
+    title: 'Neapolitan Terracotta Squid',
+    description:
+      "Bring home the charm of the sea with this refined Neapolitan terracotta squid, handmade and hand-painted according to Campania's artisan tradition. Its flowing shapes, carefully modelled tentacles, and vivid tones inspired by the Mediterranean make each piece a small work of art, capable of adding character and authenticity to any setting.\n\nIdeal as a decorative accent for seaside homes, Mediterranean-style interiors, or as an original souvenir of Neapolitan tradition, this handmade piece captures all the beauty of local craftsmanship. Each item is worked individually, so it may show slight variations that confirm its uniqueness and artisanal value.\n\nThe squid is available in different colours and variants, allowing you to choose the combination that best suits your taste or your decor. Discover all the available versions and find the perfect one to bring an authentic touch of sea and tradition into your home.",
+  },
+  'corni-decorati.jpeg': {
+    title: 'Decorated Lucky Horns',
+    description:
+      "A symbol of tradition, good fortune, and Neapolitan craftsmanship, the Decorated Lucky Horns are carefully handmade and hand-painted, creating a decorative object that captures the full authenticity of local culture. Enriched with details inspired by the colours and scents of the Mediterranean, such as lemons, chilli peppers, flowers, and leaves, these pieces combine elegance, colour, and meaning in a single creation.\n\nPerfect as a gift idea, party favour, or decorative accent, they add character to any setting and pay tribute to Neapolitan tradition reinterpreted through artisanal workmanship. Each piece is shaped and decorated individually, making every horn unique and unrepeatable.\n\nThe Decorated Lucky Horns are available in different sizes, decorations, and variants, so you can choose the model that best reflects your style or the occasion for which you want to give it. Discover all the available versions and carry with you a timeless symbol of Neapolitan tradition.",
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'maschera-pulcinella-decorata-in-cotto-napoletano.jpeg': {
+    title: 'Decorated Pulcinella Mask in Neapolitan Terracotta',
+    description:
+      "An undisputed symbol of Neapolitan tradition, the Decorated Pulcinella Mask in Neapolitan Terracotta celebrates one of Naples' most iconic characters through elegant artisanal workmanship. Entirely hand-modelled and hand-painted, it is enriched with a rich decoration of lemons, chilli peppers, and leaves, elements that recall the colours, scents, and identity of Campania.\n\nPerfect as wall decor, a souvenir, or a gift idea, this creation combines art, tradition, and culture in a single handmade piece. Every detail is carefully crafted, making each mask unique and capable of bringing character and authenticity to any setting.",
+    longDescription: pulcinellaLongDescription,
+  },
+  'polpi-in-cotto-napoletano.jpeg': {
+    title: 'Neapolitan Terracotta Octopuses',
+    description:
+      "The Neapolitan Terracotta Octopuses are a tribute to the sea and to Campania's artisanal tradition. Entirely handmade and hand-painted, they stand out for their soft shapes, intertwined tentacles, and vivid glazed finishes, which make every creation unique and full of personality.\n\nPerfect as decorative accents, souvenirs, or gift ideas, these decorative octopuses bring an authentic Mediterranean touch to any setting. The artisanal workmanship enhances every detail, transforming each piece into a small work of art that tells the charm of Neapolitan tradition.\n\nThe Neapolitan Terracotta Octopuses are available in different colours, sizes, and variants, allowing you to choose the model that best suits your taste or interior style. Each item is made individually and may show slight differences, features that certify its authenticity and handcrafted uniqueness.",
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Sacred Heart Holy Water Font',
     description:

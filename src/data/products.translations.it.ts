@@ -30,6 +30,28 @@ export const italianProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Originale complemento d’arredo ispirato alle forme sinuose degli anemoni marini. Realizzato in ceramica smaltata, si distingue per il design dinamico e le finiture lucide che ne valorizzano ogni dettaglio.\n\nPerfetto per arricchire ambienti moderni, classici o dallo stile mediterraneo, può essere utilizzato come elemento decorativo su mensole, tavoli, librerie e vetrine.\n\nDisponibile in diverse colorazioni e combinazioni cromatiche, dalle tonalità del blu e del celeste fino alle varianti più chiare e multicolore, per adattarsi facilmente a qualsiasi contesto d’arredo.',
   },
+  'calamaro-in-cotto-napoletano.jpeg': {
+    title: 'Calamaro in Cotto Napoletano',
+    description:
+      "Porta a casa il fascino del mare con questo raffinato calamaro in cotto napoletano, realizzato e dipinto a mano secondo la tradizione artigianale campana. Le sue forme sinuose, i tentacoli modellati con cura e le vivaci tonalità ispirate al Mediterraneo rendono ogni pezzo una piccola opera d'arte, capace di donare carattere e autenticità a qualsiasi ambiente.\n\nIdeale come complemento d'arredo per case al mare, ambienti dallo stile mediterraneo o come originale souvenir della tradizione partenopea, questo manufatto racchiude tutta la bellezza dell'artigianato locale. Ogni esemplare viene lavorato singolarmente, motivo per cui può presentare leggere variazioni che ne attestano l'unicità e il valore artigianale.\n\nIl calamaro è disponibile in diverse colorazioni e varianti, per permetterti di scegliere la combinazione che meglio si adatta ai tuoi gusti o al tuo arredamento. Scopri tutte le versioni disponibili e trova quella perfetta per portare un autentico tocco di mare e tradizione nella tua casa.",
+  },
+  'corni-decorati.jpeg': {
+    title: 'Corni Decorati',
+    description:
+      "Simbolo di tradizione, fortuna e artigianato napoletano, i Corni Decorati sono realizzati e dipinti a mano con cura, dando vita a un oggetto decorativo che racchiude tutta l'autenticità della cultura partenopea. Arricchiti da dettagli ispirati ai colori e ai profumi del Mediterraneo, come limoni, peperoncini, fiori e foglie, questi manufatti uniscono eleganza, colore e significato in un'unica creazione.\n\nPerfetti come idea regalo, bomboniera o complemento d'arredo, donano un tocco di carattere a qualsiasi ambiente e rappresentano un omaggio alla tradizione napoletana reinterpretata in chiave artigianale. Ogni pezzo viene modellato e decorato singolarmente, rendendo ogni corno unico e irripetibile.\n\nI Corni Decorati sono disponibili in diverse dimensioni, decorazioni e varianti, così da permetterti di scegliere il modello che meglio rispecchia il tuo stile o l'occasione per cui desideri regalarlo. Scopri tutte le versioni disponibili e porta con te un simbolo senza tempo della tradizione napoletana.",
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'maschera-pulcinella-decorata-in-cotto-napoletano.jpeg': {
+    title: 'Maschera Pulcinella Decorata in Cotto Napoletano',
+    description:
+      "Simbolo indiscusso della tradizione partenopea, la Maschera Pulcinella Decorata in Cotto Napoletano celebra uno dei personaggi più iconici di Napoli attraverso un'elegante lavorazione artigianale. Modellata e dipinta interamente a mano, è impreziosita da una ricca decorazione con limoni, peperoncini e foglie, elementi che richiamano i colori, i profumi e l'identità del territorio campano.\n\nPerfetta come complemento d'arredo da parete, souvenir o idea regalo, questa creazione unisce arte, tradizione e cultura in un unico manufatto. Ogni dettaglio è realizzato con cura, rendendo ogni maschera un pezzo unico, capace di donare carattere e autenticità a qualsiasi ambiente.",
+    longDescription: pulcinellaLongDescription,
+  },
+  'polpi-in-cotto-napoletano.jpeg': {
+    title: 'Polpi in Cotto Napoletano',
+    description:
+      "I Polpi in Cotto Napoletano sono un omaggio al mare e alla tradizione artigianale della Campania. Realizzati e dipinti interamente a mano, si distinguono per le loro forme morbide, i tentacoli intrecciati e le vivaci finiture smaltate, che rendono ogni creazione unica e ricca di personalità.\n\nPerfetti come complemento d'arredo, souvenir o idea regalo, questi polpi decorativi donano un autentico tocco mediterraneo a qualsiasi ambiente. La lavorazione artigianale valorizza ogni dettaglio, trasformando ogni pezzo in una piccola opera d'arte capace di raccontare il fascino della tradizione napoletana.\n\nI Polpi in Cotto Napoletano sono disponibili in diverse colorazioni, dimensioni e varianti, permettendoti di scegliere il modello che meglio si adatta ai tuoi gusti o al tuo stile d'arredo. Ogni esemplare è realizzato singolarmente e può presentare leggere differenze, caratteristiche che ne certificano l'autenticità e l'unicità artigianale.",
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Acquasantiera Cuore di Gesù',
     description:

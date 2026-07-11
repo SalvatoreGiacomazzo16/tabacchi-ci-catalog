@@ -30,6 +30,28 @@ export const spanishProductContentByFilename: ProductContentTranslationByFilenam
     description:
       'Original complemento decorativo inspirado en las formas sinuosas de las anémonas marinas. Realizado en cerámica esmaltada, destaca por su diseño dinámico y sus acabados brillantes, que realzan cada detalle.\n\nPerfecto para enriquecer ambientes modernos, clásicos o de estilo mediterráneo, puede utilizarse como elemento decorativo en estanterías, mesas, librerías y vitrinas.\n\nDisponible en diferentes colores y combinaciones cromáticas, desde tonos azules y celestes hasta variantes más claras y multicolores, para adaptarse fácilmente a cualquier estilo de decoración.',
   },
+  'calamaro-in-cotto-napoletano.jpeg': {
+    title: 'Calamar de Terracota Napolitana',
+    description:
+      'Lleva a casa el encanto del mar con este refinado calamar de terracota napolitana, realizado y pintado a mano según la tradición artesanal de Campania. Sus formas sinuosas, los tentáculos modelados con cuidado y los vivos tonos inspirados en el Mediterráneo convierten cada pieza en una pequeña obra de arte, capaz de aportar carácter y autenticidad a cualquier ambiente.\n\nIdeal como complemento decorativo para casas junto al mar, espacios de estilo mediterráneo o como original recuerdo de la tradición partenopea, esta pieza reúne toda la belleza de la artesanía local. Cada ejemplar se trabaja individualmente, por lo que puede presentar ligeras variaciones que certifican su singularidad y su valor artesanal.\n\nEl calamar está disponible en diferentes colores y variantes, para que puedas elegir la combinación que mejor se adapte a tus gustos o a tu decoración. Descubre todas las versiones disponibles y encuentra la perfecta para llevar a tu hogar un auténtico toque de mar y tradición.',
+  },
+  'corni-decorati.jpeg': {
+    title: 'Cuernos Decorados',
+    description:
+      'Símbolo de tradición, fortuna y artesanía napolitana, los Cuernos Decorados se realizan y pintan a mano con esmero, dando vida a un objeto decorativo que encierra toda la autenticidad de la cultura partenopea. Enriquecidos con detalles inspirados en los colores y aromas del Mediterráneo, como limones, guindillas, flores y hojas, estas piezas unen elegancia, color y significado en una única creación.\n\nPerfectos como idea de regalo, detalle para celebraciones o complemento decorativo, aportan un toque de carácter a cualquier ambiente y representan un homenaje a la tradición napolitana reinterpretada en clave artesanal. Cada pieza se modela y decora individualmente, haciendo que cada cuerno sea único e irrepetible.\n\nLos Cuernos Decorados están disponibles en diferentes tamaños, decoraciones y variantes, para que puedas elegir el modelo que mejor refleje tu estilo o la ocasión para la que deseas regalarlo. Descubre todas las versiones disponibles y lleva contigo un símbolo eterno de la tradición napolitana.',
+    longDescription: cornoPortafortunaLongDescription,
+  },
+  'maschera-pulcinella-decorata-in-cotto-napoletano.jpeg': {
+    title: 'Máscara Pulcinella Decorada en Terracota Napolitana',
+    description:
+      'Símbolo indiscutible de la tradición partenopea, la Máscara Pulcinella Decorada en Terracota Napolitana celebra a uno de los personajes más icónicos de Nápoles mediante una elegante elaboración artesanal. Modelada y pintada completamente a mano, está enriquecida con una abundante decoración de limones, guindillas y hojas, elementos que evocan los colores, los aromas y la identidad del territorio campano.\n\nPerfecta como decoración de pared, recuerdo o idea de regalo, esta creación une arte, tradición y cultura en una única pieza artesanal. Cada detalle está realizado con cuidado, haciendo de cada máscara una pieza única, capaz de aportar carácter y autenticidad a cualquier ambiente.',
+    longDescription: pulcinellaLongDescription,
+  },
+  'polpi-in-cotto-napoletano.jpeg': {
+    title: 'Pulpos de Terracota Napolitana',
+    description:
+      'Los Pulpos de Terracota Napolitana son un homenaje al mar y a la tradición artesanal de Campania. Realizados y pintados íntegramente a mano, destacan por sus formas suaves, sus tentáculos entrelazados y sus vivos acabados esmaltados, que hacen que cada creación sea única y llena de personalidad.\n\nPerfectos como complemento decorativo, recuerdo o idea de regalo, estos pulpos decorativos aportan un auténtico toque mediterráneo a cualquier ambiente. La elaboración artesanal realza cada detalle, transformando cada pieza en una pequeña obra de arte capaz de contar el encanto de la tradición napolitana.\n\nLos Pulpos de Terracota Napolitana están disponibles en diferentes colores, tamaños y variantes, permitiéndote elegir el modelo que mejor se adapte a tus gustos o a tu estilo decorativo. Cada ejemplar se realiza individualmente y puede presentar ligeras diferencias, características que certifican su autenticidad y singularidad artesanal.',
+  },
   'acquasantiera-raffigurante-cristo.png': {
     title: 'Pila de agua bendita del Sagrado Corazón',
     description:
